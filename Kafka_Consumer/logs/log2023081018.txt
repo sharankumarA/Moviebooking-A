@@ -1,0 +1,17 @@
+2023-08-10 18:24:46.890 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-10 18:24:50.911 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-10 18:24:50.922 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-10 18:24:50.926 +05:30 [INF] Hosting environment: Development
+2023-08-10 18:24:50.928 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-10 18:24:52.092 +05:30 [INF] Kafka consumer initiated
+2023-08-10 18:24:53.660 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-10 18:24:53.617 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-10 18:24:54.393 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 909.9282ms
+2023-08-10 18:24:56.417 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 2816.5151ms
+2023-08-10 18:24:56.506 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-10 18:24:56.536 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 29.8904ms
+2023-08-10 18:24:56.905 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - -
+2023-08-10 18:24:57.053 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-10 18:24:57.055 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - - - 0 628 image/png 150.1443ms
+2023-08-10 18:24:57.275 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-10 18:24:57.645 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 370.8942ms

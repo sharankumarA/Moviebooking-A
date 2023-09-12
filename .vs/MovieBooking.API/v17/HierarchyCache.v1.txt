@@ -1,0 +1,322 @@
+﻿++Solution 'MovieBooking.API' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:MovieBooking.API.sln
+++MovieBooking.API
+i:{00000000-0000-0000-0000-000000000000}:MovieBooking.API
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\bin\debug\net6.0\moviebooking.api.dll
+++Connected Services 
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1291
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:>1290
+++Dependencies
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1288
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:>1289
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:>899
+++Properties
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\properties\
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\properties\
+++Business
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\business\
+++IdentityBusiness.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\business\identitybusiness.cs
+++MovieBusiness.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\business\moviebusiness.cs
+++TicketBusiness.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\business\ticketbusiness.cs
+++UserBusiness.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\business\userbusiness.cs
+++Controllers
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\controllers\
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\controllers\
+++AdminController.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\controllers\admincontroller.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\controllers\admincontroller.cs
+++MovieBookingController.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\controllers\moviebookingcontroller.cs
+++Filters
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\filters\
+++NullCheckFilter.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\filters\nullcheckfilter.cs
+++Helper
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\helper\
+++ApplicationMapper.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\helper\applicationmapper.cs
+++Interfaces
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\interfaces\
+++IBusiness
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\interfaces\ibusiness\
+++IIdentityBusiness.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\interfaces\ibusiness\iidentitybusiness.cs
+++IMovieBusiness.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\interfaces\ibusiness\imoviebusiness.cs
+++ITicketBusiness.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\interfaces\ibusiness\iticketbusiness.cs
+++IUserBusiness.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\interfaces\ibusiness\iuserbusiness.cs
+++IRepository
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\interfaces\irepository\
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\irepository\
+++logs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\logs\
+++Models
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\
+++Appsettings
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\appsettings\
+++MongoDbConfig.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\appsettings\mongodbconfig.cs
+++DTO
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\dto\
+++MovieDto.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\dto\moviedto.cs
+++MovieResponse.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\dto\movieresponse.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\dto\movieresponse.cs
+++TicketBookingResponse.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\dto\ticketbookingresponse.cs
+++TicketBookRequest.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\dto\ticketbookrequest.cs
+++UserDto.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\dto\userdto.cs
+++Entities
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\entities\
+++MovieStatus.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\entities\moviestatus.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\model\moviestatus.cs
+++Ticket.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\entities\ticket.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\model\ticket.cs
+++User.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\models\entities\user.cs
+++Repository
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\repository\
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\repository\
+++MovieRepository.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\repository\movierepository.cs
+++TicketRepository.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\repository\ticketrepository.cs
+++UserRepository.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\repository\userrepository.cs
+++appsettings.json
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\appsettings.json
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\appsettings.json
+++Program.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\program.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\program.cs
+++No service dependencies discovered
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1292
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:>1293
+++Analyzers
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:analyzers
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:analyzers
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:analyzers
+++Frameworks
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:frameworks
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:frameworks
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:frameworks
+++Packages
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:packages
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:packages
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:packages
+++launchSettings.json
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\properties\launchsettings.json
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\properties\launchsettings.json
+++IMovieRepository.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\interfaces\irepository\imovierepository.cs
+++ITicketRepository.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\interfaces\irepository\iticketrepository.cs
+++IUserRepository.cs
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\interfaces\irepository\iuserrepository.cs
+++log2023062217.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062217.txt
+++log2023062218.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062218.txt
+++log2023062222.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062222.txt
+++log2023062223.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062223.txt
+++log2023062308.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062308.txt
+++log2023062309.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062309.txt
+++log2023062310.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062310.txt
+++log2023062311.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062311.txt
+++log2023062312.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062312.txt
+++log2023062313.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062313.txt
+++log2023062315.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062315.txt
+++log2023062316.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062316.txt
+++log2023062317.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062317.txt
+++log2023062319.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062319.txt
+++log2023062512.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062512.txt
+++log2023062515.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062515.txt
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\logs\log2023062515.txt
+++log2023062712.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062712.txt
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\logs\log2023062712.txt
+++log2023062713.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062713.txt
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\logs\log2023062713.txt
+++log2023062814.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062814.txt
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\logs\log2023062814.txt
+++log2023062815.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062815.txt
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\logs\log2023062815.txt
+++log2023062817.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062817.txt
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\logs\log2023062817.txt
+++log2023062821.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062821.txt
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\logs\log2023062821.txt
+++log2023062822.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062822.txt
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\logs\log2023062822.txt
+++log2023062911.txt
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\logs\log2023062911.txt
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\logs\log2023062911.txt
+++appsettings.Development.json
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\appsettings.development.json
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\appsettings.development.json
+++AWSSDK.SecurityToken.CodeAnalysis
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\users\lenov\.nuget\packages\awssdk.securitytoken\3.7.100.14\analyzers\dotnet\cs\awssdk.securitytoken.codeanalysis.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\users\lenov\.nuget\packages\awssdk.securitytoken\3.7.100.14\analyzers\dotnet\cs\awssdk.securitytoken.codeanalysis.dll
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\users\lenov\.nuget\packages\awssdk.securitytoken\3.7.100.14\analyzers\dotnet\cs\awssdk.securitytoken.codeanalysis.dll
+++Microsoft.AspNetCore.Analyzers
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.18\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.18\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.18\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.18\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.18\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.18\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\users\lenov\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\users\lenov\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\users\lenov\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\program files\dotnet\sdk\6.0.313\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\users\lenov\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\users\lenov\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\users\lenov\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\microsoft.aspnetcore.app
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebooking.api\microsoft.netcore.app
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\microsoft.netcore.app
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebookingapp.tests\microsoft.netcore.app
+++AutoMapper (12.0.1)
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1339
+++AutoMapper.Extensions.Microsoft.DependencyInjection (12.0.1)
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1332
+++Confluent.Kafka (2.1.1)
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1335
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:>1360
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.16)
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1340
+++Microsoft.IdentityModel.Tokens (6.29.0)
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1341
+++MongoDB.Driver (2.19.1)
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1338
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:>1362
+++Serilog.AspNetCore (7.0.0)
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1337
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:>1361
+++Swashbuckle.AspNetCore (6.2.3)
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1334
+++Swashbuckle.AspNetCore.Filters (7.0.6)
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1336
+++System.IdentityModel.Tokens.Jwt (6.29.0)
+i:{778505bb-fabd-4510-b01e-ba6407d650f3}:>1333
+++Kafka_Consumer
+i:{00000000-0000-0000-0000-000000000000}:Kafka_Consumer
+++Dto
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\dto\
+++IService
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\iservice\
+++KafkaConsumer
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\kafkaconsumer\
+++Model
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\model\
+++Service
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\service\
+++TicketBookedCountResponse.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\dto\ticketbookedcountresponse.cs
+++IAdminRepository.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\irepository\iadminrepository.cs
+++IAdminService.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\iservice\iadminservice.cs
+++ConsumerService.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\kafkaconsumer\consumerservice.cs
+++ConsumerWrapper.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\kafkaconsumer\consumerwrapper.cs
+++IConsumerWrapper.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\kafkaconsumer\iconsumerwrapper.cs
+++MovieTicketDatabaseSettings.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\model\movieticketdatabasesettings.cs
+++AdminRepository.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\repository\adminrepository.cs
+++AdminService.cs
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\kafka_consumer\service\adminservice.cs
+++Swashbuckle.AspNetCore (6.5.0)
+i:{7b8f86d8-0cbc-4969-9d26-fac0c79bcc92}:>1359
+++MovieBookingApp.Tests
+i:{00000000-0000-0000-0000-000000000000}:MovieBookingApp.Tests
+++UnitTests
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebookingapp.tests\unittests\
+++MovieBookingControllerTest.cs
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebookingapp.tests\unittests\moviebookingcontrollertest.cs
+++MovieBusinessTest.cs
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebookingapp.tests\unittests\moviebusinesstest.cs
+++TicketBusinessTest.cs
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebookingapp.tests\unittests\ticketbusinesstest.cs
+++Usings.cs
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\cognizant\moviebooking\moviebookingapp\moviebooking.api\moviebookingapp.tests\usings.cs
+++Projects
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:projects
+++nunit.analyzers
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:c:\users\lenov\.nuget\packages\nunit.analyzers\3.3.0\analyzers\dotnet\cs\nunit.analyzers.dll
+++AutoFixture (4.18.0)
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:>1307
+++coverlet.collector (3.1.2)
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:>1312
+++Microsoft.NET.Test.Sdk (17.1.0)
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:>1306
+++Moq (4.18.4)
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:>1310
+++NUnit (3.13.3)
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:>1308
+++NUnit.Analyzers (3.3.0)
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:>1311
+++NUnit3TestAdapter (4.5.0)
+i:{32e5f50f-4c93-4684-8ab2-7a0582dfe73a}:>1309

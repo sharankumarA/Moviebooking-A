@@ -1,0 +1,17 @@
+2023-08-22 05:20:05.435 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-08-22 05:20:05.655 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-22 05:20:08.158 +00:00 [INF] Creating key {185fb69e-edda-40fb-b8df-40b381f3032f} with creation date 2023-08-22 05:20:08Z, activation date 2023-08-22 05:20:07Z, and expiration date 2023-11-20 05:20:07Z.
+2023-08-22 05:20:08.661 +00:00 [WRN] No XML encryptor configured. Key {185fb69e-edda-40fb-b8df-40b381f3032f} may be persisted to storage in unencrypted form.
+2023-08-22 05:20:08.698 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-185fb69e-edda-40fb-b8df-40b381f3032f.xml'.
+2023-08-22 05:20:09.230 +00:00 [INF] Now listening on: http://[::]:80
+2023-08-22 05:20:09.254 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-22 05:20:09.256 +00:00 [INF] Hosting environment: Development
+2023-08-22 05:20:09.258 +00:00 [INF] Content root path: /app/
+2023-08-22 05:20:11.470 +00:00 [INF] Kafka consumer initiated
+2023-08-22 05:20:11.566 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49153/swagger/index.html - -
+2023-08-22 05:20:12.733 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49153/swagger/index.html - - - 200 - text/html;charset=utf-8 1182.9868ms
+2023-08-22 05:20:13.202 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49153/swagger/favicon-32x32.png - -
+2023-08-22 05:20:13.313 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49153/swagger/v1/swagger.json - -
+2023-08-22 05:20:13.609 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 296.5654ms
+2023-08-22 05:20:14.380 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-22 05:20:14.381 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49153/swagger/favicon-32x32.png - - - 0 628 image/png 1178.3400ms

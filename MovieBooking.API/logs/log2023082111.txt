@@ -1,0 +1,7 @@
+2023-08-21 11:59:20.486 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-08-21 11:59:20.581 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-21 11:59:21.208 +00:00 [INF] Now listening on: https://[::]:443
+2023-08-21 11:59:21.210 +00:00 [INF] Now listening on: http://[::]:80
+2023-08-21 11:59:21.217 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 11:59:21.219 +00:00 [INF] Hosting environment: Development
+2023-08-21 11:59:21.221 +00:00 [INF] Content root path: /app/

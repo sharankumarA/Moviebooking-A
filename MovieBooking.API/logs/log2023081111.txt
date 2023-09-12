@@ -1,0 +1,1234 @@
+2023-08-11 11:00:28.798 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/totalticketcount - -
+2023-08-11 11:00:28.841 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:00:28.845 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/totalticketcount - - - 204 - - 47.2032ms
+2023-08-11 11:00:28.858 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/totalticketcount - -
+2023-08-11 11:00:28.862 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:00:28.869 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API)'
+2023-08-11 11:00:28.874 +05:30 [INF] Route matched with {action = "totalTicketCount", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] totalTicketCount() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:00:28.882 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:00:28.904 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.Entities.TotalTicketCount, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:00:28.909 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API) in 27.2893ms
+2023-08-11 11:00:28.914 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API)'
+2023-08-11 11:00:28.919 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/totalticketcount - - - 200 - application/json;+charset=utf-8 62.1164ms
+2023-08-11 11:00:30.558 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:00:30.564 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:00:30.574 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 15.8731ms
+2023-08-11 11:00:30.579 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:00:30.585 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:00:30.589 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:00:30.593 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:00:30.604 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:00:30.607 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:00:30.610 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:00:30.621 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:00:30.627 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 22.8269ms
+2023-08-11 11:00:30.633 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:00:30.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 58.3520ms
+2023-08-11 11:00:32.605 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:00:32.610 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:00:32.613 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:00:32.616 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:00:32.627 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:00:32.629 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:00:32.632 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:00:32.642 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:00:32.648 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 21.0893ms
+2023-08-11 11:00:32.653 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:00:32.658 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 52.1461ms
+2023-08-11 11:00:43.827 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:00:43.832 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:00:43.836 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 8.8856ms
+2023-08-11 11:00:43.840 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:00:43.843 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:00:43.848 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:00:43.852 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:00:43.859 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:00:43.863 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:00:43.866 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:00:43.876 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:00:43.883 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 23.5596ms
+2023-08-11 11:00:43.889 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:00:43.892 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 52.0325ms
+2023-08-11 11:09:57.238 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 11:09:58.229 +05:30 [INF] Now listening on: https://localhost:7167
+2023-08-11 11:09:58.235 +05:30 [INF] Now listening on: http://localhost:5167
+2023-08-11 11:09:58.247 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 11:09:58.253 +05:30 [INF] Hosting environment: Development
+2023-08-11 11:09:58.256 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\
+2023-08-11 11:10:04.323 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger - -
+2023-08-11 11:10:04.342 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - -
+2023-08-11 11:10:04.732 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger - - - 0 - - 429.7183ms
+2023-08-11 11:10:06.777 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - - - 200 - text/html;charset=utf-8 2435.3142ms
+2023-08-11 11:10:07.008 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/swagger-ui.css - -
+2023-08-11 11:10:07.024 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - -
+2023-08-11 11:10:07.092 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 11:10:07.143 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/swagger-ui.css - - - 0 143632 text/css 134.3714ms
+2023-08-11 11:10:07.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 127.1755ms
+2023-08-11 11:10:08.714 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - -
+2023-08-11 11:10:09.622 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 907.5437ms
+2023-08-11 11:10:27.154 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/ADMIN/admin@123 - -
+2023-08-11 11:10:27.412 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:10:27.526 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:10:28.662 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:10:28.665 +05:30 [DBG] LoginId : ADMIN, Password: admin@123
+2023-08-11 11:10:28.669 +05:30 [INF] Get user token : User Business
+2023-08-11 11:10:28.675 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:10:29.442 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-11 11:10:29.464 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 1920.045ms
+2023-08-11 11:10:29.482 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:10:29.492 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/ADMIN/admin@123 - - - 400 - text/plain;+charset=utf-8 2337.6452ms
+2023-08-11 11:10:36.972 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - -
+2023-08-11 11:10:36.987 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:10:36.995 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:10:37.005 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:10:37.009 +05:30 [DBG] LoginId : admin, Password: admin@123
+2023-08-11 11:10:37.014 +05:30 [INF] Get user token : User Business
+2023-08-11 11:10:37.017 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:10:37.146 +05:30 [INF] Authorizing user : Identity Business
+2023-08-11 11:10:37.166 +05:30 [INF] creating user token : Identity Business
+2023-08-11 11:10:37.689 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-11 11:10:37.694 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 691.192ms
+2023-08-11 11:10:37.699 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:10:37.704 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - - - 200 - text/plain;+charset=utf-8 732.7191ms
+2023-08-11 11:11:02.148 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:11:02.400 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:11:02.412 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:11:02.422 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:11:02.428 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:11:02.433 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:11:02.514 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:11:02.547 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 129.0327ms
+2023-08-11 11:11:02.552 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:11:02.564 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 416.2412ms
+2023-08-11 11:11:29.615 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:11:29.629 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:11:29.637 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 21.7357ms
+2023-08-11 11:11:29.647 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:11:29.677 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:11:29.685 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:11:29.700 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:11:29.712 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:11:29.723 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:11:29.729 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:11:29.745 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:11:29.758 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 45.6496ms
+2023-08-11 11:11:29.766 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:11:29.772 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 129.3706ms
+2023-08-11 11:11:46.813 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - -
+2023-08-11 11:11:46.816 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:11:46.818 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:11:46.822 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:11:46.828 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:11:46.831 +05:30 [DBG] LoginId : admin, Password: admin@123
+2023-08-11 11:11:46.833 +05:30 [INF] Get user token : User Business
+2023-08-11 11:11:46.836 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:11:46.856 +05:30 [INF] Authorizing user : Identity Business
+2023-08-11 11:11:46.859 +05:30 [INF] creating user token : Identity Business
+2023-08-11 11:11:46.861 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-11 11:11:46.865 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 36.7655ms
+2023-08-11 11:11:46.870 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:11:46.875 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - - - 200 - text/plain;+charset=utf-8 62.7212ms
+2023-08-11 11:11:46.911 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:11:46.914 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:11:46.916 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 5.7378ms
+2023-08-11 11:11:46.920 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:11:46.923 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:11:46.927 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:11:46.931 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:11:46.937 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:11:46.940 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:11:46.942 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:11:46.952 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:11:46.959 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 21.2247ms
+2023-08-11 11:11:46.965 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:11:46.969 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 48.4069ms
+2023-08-11 11:13:44.856 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 11:13:45.816 +05:30 [INF] Now listening on: https://localhost:7167
+2023-08-11 11:13:45.831 +05:30 [INF] Now listening on: http://localhost:5167
+2023-08-11 11:13:45.858 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 11:13:45.867 +05:30 [INF] Hosting environment: Development
+2023-08-11 11:13:45.872 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\
+2023-08-11 11:13:49.391 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger - -
+2023-08-11 11:13:49.470 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - -
+2023-08-11 11:13:49.862 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger - - - 0 - - 483.0508ms
+2023-08-11 11:13:51.566 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - - - 200 - text/html;charset=utf-8 2095.8319ms
+2023-08-11 11:13:51.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/swagger-ui.css - -
+2023-08-11 11:13:51.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - -
+2023-08-11 11:13:51.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 102.3089ms
+2023-08-11 11:13:51.943 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 11:13:51.978 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/swagger-ui.css - - - 0 143632 text/css 251.8131ms
+2023-08-11 11:13:52.990 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - -
+2023-08-11 11:13:53.333 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 342.9977ms
+2023-08-11 11:14:06.244 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - -
+2023-08-11 11:14:06.654 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:14:06.796 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:14:08.153 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:14:08.156 +05:30 [DBG] LoginId : admin, Password: admin@123
+2023-08-11 11:14:08.160 +05:30 [INF] Get user token : User Business
+2023-08-11 11:14:08.167 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:14:08.916 +05:30 [INF] Authorizing user : Identity Business
+2023-08-11 11:14:08.936 +05:30 [INF] creating user token : Identity Business
+2023-08-11 11:14:09.378 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-11 11:14:09.402 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 2586.748ms
+2023-08-11 11:14:09.420 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:14:09.428 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - - - 200 - text/plain;+charset=utf-8 3184.6815ms
+2023-08-11 11:14:24.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:14:24.999 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:14:25.013 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:14:25.023 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:14:25.029 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:14:25.033 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:14:25.145 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:14:25.179 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 159.1889ms
+2023-08-11 11:14:25.186 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:14:25.193 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 424.9403ms
+2023-08-11 11:14:36.085 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:14:36.104 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:14:36.114 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 29.1059ms
+2023-08-11 11:14:36.118 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:14:36.132 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:14:36.145 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:14:36.153 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:14:36.175 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:14:36.182 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:14:36.186 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:14:36.199 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:14:36.209 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 34.761ms
+2023-08-11 11:14:36.215 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:14:36.220 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 102.9638ms
+2023-08-11 11:15:04.826 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:15:04.853 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:15:04.861 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 35.2860ms
+2023-08-11 11:15:04.869 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:15:04.874 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:15:04.880 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:15:04.903 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:15:04.931 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:15:04.943 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:15:04.951 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:15:04.985 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:15:04.999 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 73.7143ms
+2023-08-11 11:15:05.004 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:15:05.014 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 144.6506ms
+2023-08-11 11:15:09.590 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/Jailer - -
+2023-08-11 11:15:09.594 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:15:09.597 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:15:09.608 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:15:09.617 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:15:09.619 +05:30 [DBG] movieName: Jailer
+2023-08-11 11:15:09.787 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:15:09.792 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 177.2411ms
+2023-08-11 11:15:09.796 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:15:09.806 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/Jailer - - - 200 - application/json;+charset=utf-8 216.3913ms
+2023-08-11 11:15:11.469 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/ticketcountandstatus/Jailer/PVR - -
+2023-08-11 11:15:11.473 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:15:11.480 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetTotalticketandstatus (MovieBooking.API)'
+2023-08-11 11:15:11.489 +05:30 [INF] Route matched with {action = "GetTotalticketandstatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTotalticketandstatus(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:15:11.499 +05:30 [INF] Get movie tickets and status:MovieBooking controller
+2023-08-11 11:15:11.502 +05:30 [DBG] movieName: Jailer
+2023-08-11 11:15:11.504 +05:30 [DBG] TheatreName: PVR
+2023-08-11 11:15:11.542 +05:30 [INF] Executing OkObjectResult, writing value of type 'MovieBooking.API.Models.Entities.InitialMovieTicket'.
+2023-08-11 11:15:11.548 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GetTotalticketandstatus (MovieBooking.API) in 51.1578ms
+2023-08-11 11:15:11.553 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetTotalticketandstatus (MovieBooking.API)'
+2023-08-11 11:15:11.559 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/ticketcountandstatus/Jailer/PVR - - - 200 - application/json;+charset=utf-8 90.1088ms
+2023-08-11 11:15:15.970 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/update/movie - -
+2023-08-11 11:15:15.979 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:15:15.994 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/update/movie - - - 204 - - 24.0521ms
+2023-08-11 11:15:16.000 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7167/api/MovieBooking/update/movie application/json 87
+2023-08-11 11:15:16.004 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:15:16.009 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:15:16.010 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:15:16.015 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.UpdateMovie (MovieBooking.API)'
+2023-08-11 11:15:16.019 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 14.8686ms
+2023-08-11 11:15:16.026 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:15:16.033 +05:30 [INF] Route matched with {action = "UpdateMovie", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMovie(MovieBooking.API.Models.DTO.InitialMovieTicketDto) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:15:16.033 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:15:16.049 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:15:16.052 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:15:16.060 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:15:16.063 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:15:16.065 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:15:16.076 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:15:16.082 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 22.2131ms
+2023-08-11 11:15:16.086 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:15:16.090 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 63.8340ms
+2023-08-11 11:15:16.141 +05:30 [INF] Update movie : MovieBooking controller
+2023-08-11 11:15:16.443 +05:30 [INF] Executing OkObjectResult, writing value of type 'MovieBooking.API.Models.DTO.MovieResponse'.
+2023-08-11 11:15:16.450 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.UpdateMovie (MovieBooking.API) in 405.6611ms
+2023-08-11 11:15:16.454 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.UpdateMovie (MovieBooking.API)'
+2023-08-11 11:15:16.458 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7167/api/MovieBooking/update/movie application/json 87 - 200 - application/json;+charset=utf-8 458.4551ms
+2023-08-11 11:16:30.055 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:16:30.060 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:16:30.063 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 8.0058ms
+2023-08-11 11:16:30.069 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:16:30.079 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:16:30.083 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:16:30.086 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:16:30.093 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:16:30.095 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:16:30.098 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:16:30.109 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:16:30.119 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 26.4053ms
+2023-08-11 11:16:30.204 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:16:30.282 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 213.4808ms
+2023-08-11 11:17:06.052 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - -
+2023-08-11 11:17:06.080 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:17:06.083 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:17:06.086 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:17:06.094 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:17:06.096 +05:30 [DBG] LoginId : admin, Password: admin@123
+2023-08-11 11:17:06.099 +05:30 [INF] Get user token : User Business
+2023-08-11 11:17:06.101 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:17:06.111 +05:30 [INF] Authorizing user : Identity Business
+2023-08-11 11:17:06.116 +05:30 [INF] creating user token : Identity Business
+2023-08-11 11:17:06.119 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-11 11:17:06.124 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 30.744ms
+2023-08-11 11:17:06.128 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:17:06.131 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - - - 200 - text/plain;+charset=utf-8 80.2881ms
+2023-08-11 11:17:06.149 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:17:06.152 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:17:06.157 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 8.0700ms
+2023-08-11 11:17:06.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:17:06.172 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:17:06.175 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:17:06.179 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:17:06.186 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:17:06.190 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:17:06.195 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:17:06.209 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:17:06.218 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 31.6687ms
+2023-08-11 11:17:06.226 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:17:06.230 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 60.4762ms
+2023-08-11 11:17:34.477 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/totalticketcount - -
+2023-08-11 11:17:34.510 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:17:34.515 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/totalticketcount - - - 204 - - 38.4894ms
+2023-08-11 11:17:34.520 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/totalticketcount - -
+2023-08-11 11:17:34.524 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:17:34.527 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API)'
+2023-08-11 11:17:34.536 +05:30 [INF] Route matched with {action = "totalTicketCount", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] totalTicketCount() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:17:34.546 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:17:34.570 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.Entities.TotalTicketCount, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:17:34.578 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API) in 34.0075ms
+2023-08-11 11:17:34.583 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API)'
+2023-08-11 11:17:34.587 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/totalticketcount - - - 200 - application/json;+charset=utf-8 66.5755ms
+2023-08-11 11:19:22.748 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:19:22.816 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:19:22.820 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 71.3709ms
+2023-08-11 11:19:22.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:19:22.841 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:19:22.848 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:19:22.852 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:19:22.867 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:19:22.870 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:19:22.873 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:19:22.888 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:19:22.898 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 31.3ms
+2023-08-11 11:19:22.903 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:19:22.908 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 71.6931ms
+2023-08-11 11:21:41.547 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:21:41.557 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:21:41.563 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 15.8241ms
+2023-08-11 11:21:41.577 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:21:41.579 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:21:41.582 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:21:41.585 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:21:41.592 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:21:41.595 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:21:41.598 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:21:41.608 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:21:41.613 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 21.2736ms
+2023-08-11 11:21:41.618 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:21:41.623 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 46.1371ms
+2023-08-11 11:21:58.485 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:21:58.488 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:21:58.493 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 7.9475ms
+2023-08-11 11:21:58.503 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:21:58.506 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:21:58.510 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:21:58.514 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:21:58.523 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:21:58.527 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:21:58.529 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:21:58.538 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:21:58.545 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 21.9581ms
+2023-08-11 11:21:58.550 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:21:58.554 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 51.2939ms
+2023-08-11 11:22:35.272 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:22:35.283 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:22:35.288 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 15.6177ms
+2023-08-11 11:22:35.307 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:22:35.317 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:22:35.320 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:22:35.323 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:22:35.345 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:22:35.348 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:22:35.350 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:22:35.362 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:22:35.367 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 22.5908ms
+2023-08-11 11:22:35.374 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:22:35.382 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 77.6535ms
+2023-08-11 11:28:45.053 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - -
+2023-08-11 11:28:45.066 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:45.071 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:28:45.080 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:28:45.097 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:28:45.102 +05:30 [DBG] LoginId : sharan, Password: kumar
+2023-08-11 11:28:45.107 +05:30 [INF] Get user token : User Business
+2023-08-11 11:28:45.111 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:28:45.144 +05:30 [INF] Authorizing user : Identity Business
+2023-08-11 11:28:45.149 +05:30 [INF] creating user token : Identity Business
+2023-08-11 11:28:45.155 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-11 11:28:45.159 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 70.7135ms
+2023-08-11 11:28:45.164 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:28:45.169 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - - - 200 - text/plain;+charset=utf-8 120.9543ms
+2023-08-11 11:28:45.215 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:28:45.220 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:45.226 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 10.7064ms
+2023-08-11 11:28:45.233 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:28:45.236 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:45.244 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:28:45.248 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:28:45.254 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:28:45.257 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:28:45.265 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:28:45.277 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:28:45.284 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 29.5944ms
+2023-08-11 11:28:45.290 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:28:45.294 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 61.2542ms
+2023-08-11 11:28:49.895 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - -
+2023-08-11 11:28:49.910 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:49.914 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:28:49.919 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:28:49.926 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:28:49.929 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:28:49.944 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:28:49.951 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 25.7477ms
+2023-08-11 11:28:49.957 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:28:49.963 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - - - 200 - application/json;+charset=utf-8 68.2913ms
+2023-08-11 11:28:52.602 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/Bookedseats/DD Returns/UMA - -
+2023-08-11 11:28:52.602 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/MoviestatusTicketcount/DD Returns/UMA - -
+2023-08-11 11:28:52.603 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - -
+2023-08-11 11:28:52.616 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:52.615 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:52.633 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetTotalBookedSeatsCount (MovieBooking.API)'
+2023-08-11 11:28:52.621 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:52.637 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetAvailableMovieTickets (MovieBooking.API)'
+2023-08-11 11:28:52.645 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:28:52.656 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:28:52.666 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:28:52.668 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:28:52.677 +05:30 [INF] Route matched with {action = "GetTotalBookedSeatsCount", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTotalBookedSeatsCount(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:28:52.678 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:28:52.690 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 24.5136ms
+2023-08-11 11:28:52.697 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:28:52.699 +05:30 [INF] Route matched with {action = "GetAvailableMovieTickets", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableMovieTickets(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:28:52.701 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - - - 200 - application/json;+charset=utf-8 98.1354ms
+2023-08-11 11:28:52.704 +05:30 [INF] Get available movie tickets:MovieBooking controller
+2023-08-11 11:28:52.715 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:28:52.717 +05:30 [INF] Get available movie tickets:MovieBooking controller
+2023-08-11 11:28:52.722 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:28:52.763 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2023-08-11 11:28:52.781 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GetAvailableMovieTickets (MovieBooking.API) in 72.9363ms
+2023-08-11 11:28:52.790 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetAvailableMovieTickets (MovieBooking.API)'
+2023-08-11 11:28:52.795 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/MoviestatusTicketcount/DD Returns/UMA - - - 200 - application/json;+charset=utf-8 192.6623ms
+2023-08-11 11:28:52.855 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:28:52.874 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GetTotalBookedSeatsCount (MovieBooking.API) in 189.7153ms
+2023-08-11 11:28:52.885 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetTotalBookedSeatsCount (MovieBooking.API)'
+2023-08-11 11:28:52.898 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/Bookedseats/DD Returns/UMA - - - 200 - application/json;+charset=utf-8 295.1828ms
+2023-08-11 11:28:56.563 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - -
+2023-08-11 11:28:56.567 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:56.570 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:28:56.574 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:28:56.583 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:28:56.586 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:28:56.597 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:28:56.603 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 20.7754ms
+2023-08-11 11:28:56.612 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:28:56.617 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - - - 200 - application/json;+charset=utf-8 60.2861ms
+2023-08-11 11:28:57.383 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - -
+2023-08-11 11:28:57.387 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:57.390 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:28:57.397 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:28:57.407 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:28:57.411 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:28:57.425 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:28:57.434 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 27.4467ms
+2023-08-11 11:28:57.440 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:28:57.446 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - - - 200 - application/json;+charset=utf-8 62.8369ms
+2023-08-11 11:28:59.034 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/DD Returns/booktickets - -
+2023-08-11 11:28:59.037 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:59.041 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/DD Returns/booktickets - - - 204 - - 8.4155ms
+2023-08-11 11:28:59.048 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7167/api/MovieBooking/DD Returns/booktickets application/json 84
+2023-08-11 11:28:59.052 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:59.055 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.BookTicket (MovieBooking.API)'
+2023-08-11 11:28:59.067 +05:30 [INF] Route matched with {action = "BookTicket", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookTicket(System.String, MovieBooking.API.Models.DTO.TicketBookRequest) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:28:59.145 +05:30 [INF] Book ticket from MovieBooking Controller
+2023-08-11 11:28:59.149 +05:30 [DBG] moviename: DD Returns, ticket: MovieBooking.API.Models.DTO.TicketBookRequest
+2023-08-11 11:28:59.157 +05:30 [INF] Book movie : ticket business
+2023-08-11 11:28:59.164 +05:30 [INF] Check if movie exists in movie collection : ticket repository
+2023-08-11 11:28:59.476 +05:30 [INF] Add ticket to ticket collection : ticket repository
+2023-08-11 11:28:59.661 +05:30 [INF] Executing OkObjectResult, writing value of type 'MovieBooking.API.Models.DTO.TicketBookRequest'.
+2023-08-11 11:28:59.669 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.BookTicket (MovieBooking.API) in 593.9014ms
+2023-08-11 11:28:59.680 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.BookTicket (MovieBooking.API)'
+2023-08-11 11:28:59.688 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7167/api/MovieBooking/DD Returns/booktickets application/json 84 - 200 - application/json;+charset=utf-8 639.8993ms
+2023-08-11 11:28:59.704 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/cart/sharan - -
+2023-08-11 11:28:59.711 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:59.717 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/cart/sharan - - - 204 - - 12.6957ms
+2023-08-11 11:28:59.722 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/cart/sharan application.json -
+2023-08-11 11:28:59.730 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:28:59.734 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API)'
+2023-08-11 11:28:59.748 +05:30 [INF] Route matched with {action = "GetCartDetails", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartDetails(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:28:59.759 +05:30 [INF] Get cart details:MovieBooking controller
+2023-08-11 11:28:59.762 +05:30 [DBG] username: sharan
+2023-08-11 11:28:59.769 +05:30 [INF] cart details : ticket business
+2023-08-11 11:28:59.804 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TicketDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:28:59.816 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API) in 60.435ms
+2023-08-11 11:28:59.823 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API)'
+2023-08-11 11:28:59.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/cart/sharan application.json - - 200 - application/json;+charset=utf-8 106.1187ms
+2023-08-11 11:29:08.253 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:29:08.257 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:29:08.262 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 9.2849ms
+2023-08-11 11:29:08.270 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:29:08.281 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:29:08.286 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:29:08.290 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:29:08.299 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:29:08.301 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:29:08.304 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:29:08.317 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:29:08.323 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 24.7444ms
+2023-08-11 11:29:08.329 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:29:08.332 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 64.5972ms
+2023-08-11 11:30:57.178 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/Movies/Search/maveeran - -
+2023-08-11 11:30:57.196 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:30:57.200 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/Movies/Search/maveeran - - - 204 - - 22.2113ms
+2023-08-11 11:30:57.211 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/Movies/Search/maveeran application.json -
+2023-08-11 11:30:57.216 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:30:57.219 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.SearchMovie (MovieBooking.API)'
+2023-08-11 11:30:57.230 +05:30 [INF] Route matched with {action = "SearchMovie", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovie(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:30:57.242 +05:30 [INF] Get movie by name from MovieBooking Controller
+2023-08-11 11:30:57.245 +05:30 [DBG] moviename: maveeran
+2023-08-11 11:30:57.250 +05:30 [INF] Get movie by name : movie Business
+2023-08-11 11:30:57.255 +05:30 [INF] Get movie list by name from movie collection : movie repository
+2023-08-11 11:30:57.267 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:30:57.274 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.SearchMovie (MovieBooking.API) in 33.8063ms
+2023-08-11 11:30:57.279 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.SearchMovie (MovieBooking.API)'
+2023-08-11 11:30:57.284 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/Movies/Search/maveeran application.json - - 200 - application/json;+charset=utf-8 73.0452ms
+2023-08-11 11:30:57.299 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:30:57.302 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:30:57.306 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 6.6374ms
+2023-08-11 11:30:57.309 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:30:57.314 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:30:57.317 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:30:57.321 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:30:57.330 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:30:57.334 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:30:57.337 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:30:57.355 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:30:57.362 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 32.1398ms
+2023-08-11 11:30:57.368 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:30:57.373 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 63.8366ms
+2023-08-11 11:31:03.298 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:31:03.354 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:31:03.359 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 60.6124ms
+2023-08-11 11:31:03.566 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/Movies/Search/ - -
+2023-08-11 11:31:03.566 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:31:03.567 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:31:03.570 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:31:03.576 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:31:03.579 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:31:03.582 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/Movies/Search/ - - - 204 - - 16.4645ms
+2023-08-11 11:31:03.587 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 20.2219ms
+2023-08-11 11:31:03.594 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:31:03.606 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:31:03.619 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:31:03.623 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:31:03.629 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:31:03.645 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/Movies/Search/ application.json -
+2023-08-11 11:31:03.649 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:31:03.652 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:31:03.656 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:31:03.666 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:31:03.669 +05:30 [DBG] LoginId : Movies, Password: Search
+2023-08-11 11:31:03.672 +05:30 [INF] Get user token : User Business
+2023-08-11 11:31:03.674 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:31:03.708 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:31:03.714 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 95.2263ms
+2023-08-11 11:31:03.718 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:31:03.720 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:31:03.723 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:31:03.728 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 161.1723ms
+2023-08-11 11:31:03.731 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:31:03.738 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:31:03.745 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:31:03.748 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:31:03.750 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:31:03.760 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:31:03.812 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 66.9701ms
+2023-08-11 11:31:03.817 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:31:03.821 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 103.8827ms
+2023-08-11 11:31:03.824 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-11 11:31:03.835 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 168.8496ms
+2023-08-11 11:31:03.842 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:31:03.847 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/Movies/Search/ application.json - - 400 - text/plain;+charset=utf-8 202.3721ms
+2023-08-11 11:31:05.454 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/cart/sharan - -
+2023-08-11 11:31:05.458 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:31:05.464 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/cart/sharan - - - 204 - - 10.1178ms
+2023-08-11 11:31:05.468 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/cart/sharan application.json -
+2023-08-11 11:31:05.475 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:31:05.479 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API)'
+2023-08-11 11:31:05.484 +05:30 [INF] Route matched with {action = "GetCartDetails", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartDetails(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:31:05.494 +05:30 [INF] Get cart details:MovieBooking controller
+2023-08-11 11:31:05.498 +05:30 [DBG] username: sharan
+2023-08-11 11:31:05.502 +05:30 [INF] cart details : ticket business
+2023-08-11 11:31:05.512 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TicketDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:31:05.519 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API) in 25.1942ms
+2023-08-11 11:31:05.524 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API)'
+2023-08-11 11:31:05.528 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/cart/sharan application.json - - 200 - application/json;+charset=utf-8 60.1744ms
+2023-08-11 11:31:07.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:31:07.387 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:31:07.402 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:31:07.407 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:31:07.417 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:31:07.420 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:31:07.423 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:31:07.436 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:31:07.442 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 24.7367ms
+2023-08-11 11:31:07.449 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:31:07.453 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 76.2494ms
+2023-08-11 11:32:52.605 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - -
+2023-08-11 11:32:52.608 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:32:52.614 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:32:52.619 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:32:52.627 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:32:52.631 +05:30 [DBG] LoginId : admin, Password: admin@123
+2023-08-11 11:32:52.634 +05:30 [INF] Get user token : User Business
+2023-08-11 11:32:52.637 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:32:52.650 +05:30 [INF] Authorizing user : Identity Business
+2023-08-11 11:32:52.655 +05:30 [INF] creating user token : Identity Business
+2023-08-11 11:32:52.659 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-11 11:32:52.665 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 38.0107ms
+2023-08-11 11:32:52.671 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:32:52.676 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - - - 200 - text/plain;+charset=utf-8 71.0690ms
+2023-08-11 11:32:52.723 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:32:52.739 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:32:52.743 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 20.3691ms
+2023-08-11 11:32:52.752 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:32:52.756 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:32:52.759 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:32:52.765 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:32:52.775 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:32:52.781 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:32:52.786 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:32:52.807 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:32:52.817 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 41.5471ms
+2023-08-11 11:32:52.822 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:32:52.827 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 74.1068ms
+2023-08-11 11:33:03.135 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/totalticketcount - -
+2023-08-11 11:33:03.140 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:03.150 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/totalticketcount - - - 204 - - 15.3945ms
+2023-08-11 11:33:03.187 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/totalticketcount - -
+2023-08-11 11:33:03.191 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:03.197 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API)'
+2023-08-11 11:33:03.202 +05:30 [INF] Route matched with {action = "totalTicketCount", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] totalTicketCount() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:33:03.218 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:33:03.240 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.Entities.TotalTicketCount, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:33:03.244 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API) in 26.3694ms
+2023-08-11 11:33:03.251 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API)'
+2023-08-11 11:33:03.256 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/totalticketcount - - - 200 - application/json;+charset=utf-8 69.4084ms
+2023-08-11 11:33:04.452 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:33:04.456 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:04.461 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 9.3568ms
+2023-08-11 11:33:04.469 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:33:04.474 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:04.481 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:33:04.487 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:33:04.498 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:33:04.501 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:33:04.505 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:33:04.525 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:33:04.533 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 35.5297ms
+2023-08-11 11:33:04.541 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:33:04.549 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 79.8509ms
+2023-08-11 11:33:18.007 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - -
+2023-08-11 11:33:18.011 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:18.017 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:33:18.018 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:33:18.026 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:33:18.029 +05:30 [DBG] LoginId : sharan, Password: kumar
+2023-08-11 11:33:18.032 +05:30 [INF] Get user token : User Business
+2023-08-11 11:33:18.036 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:33:18.046 +05:30 [INF] Authorizing user : Identity Business
+2023-08-11 11:33:18.051 +05:30 [INF] creating user token : Identity Business
+2023-08-11 11:33:18.054 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-11 11:33:18.060 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 34.9049ms
+2023-08-11 11:33:18.066 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:33:18.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - - - 200 - text/plain;+charset=utf-8 62.7726ms
+2023-08-11 11:33:18.109 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:33:18.112 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:18.115 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 6.8264ms
+2023-08-11 11:33:18.120 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:33:18.123 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:18.127 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:33:18.132 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:33:18.141 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:33:18.144 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:33:18.147 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:33:18.159 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:33:18.166 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 25.3215ms
+2023-08-11 11:33:18.172 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:33:18.175 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 55.7046ms
+2023-08-11 11:33:20.497 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/Jailer - -
+2023-08-11 11:33:20.517 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:20.523 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:33:20.534 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:33:20.542 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:33:20.546 +05:30 [DBG] movieName: Jailer
+2023-08-11 11:33:20.558 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:33:20.567 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 25.2112ms
+2023-08-11 11:33:20.572 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:33:20.576 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/Jailer - - - 200 - application/json;+charset=utf-8 79.6502ms
+2023-08-11 11:33:23.350 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/Bookedseats/Jailer/IMAX - -
+2023-08-11 11:33:23.350 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/Jailer - -
+2023-08-11 11:33:23.350 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/MoviestatusTicketcount/Jailer/IMAX - -
+2023-08-11 11:33:23.358 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:23.360 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:23.368 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:33:23.370 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetTotalBookedSeatsCount (MovieBooking.API)'
+2023-08-11 11:33:23.374 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:33:23.379 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetAvailableMovieTickets (MovieBooking.API)'
+2023-08-11 11:33:23.384 +05:30 [INF] Route matched with {action = "GetTotalBookedSeatsCount", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTotalBookedSeatsCount(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:33:23.388 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:33:23.394 +05:30 [INF] Route matched with {action = "GetAvailableMovieTickets", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableMovieTickets(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:33:23.403 +05:30 [INF] Get available movie tickets:MovieBooking controller
+2023-08-11 11:33:23.412 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:33:23.430 +05:30 [DBG] movieName: Jailer
+2023-08-11 11:33:23.425 +05:30 [DBG] movieName: Jailer
+2023-08-11 11:33:23.421 +05:30 [INF] Get available movie tickets:MovieBooking controller
+2023-08-11 11:33:23.444 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:33:23.448 +05:30 [DBG] movieName: Jailer
+2023-08-11 11:33:23.453 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2023-08-11 11:33:23.458 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 46.2705ms
+2023-08-11 11:35:20.303 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 11:35:21.427 +05:30 [INF] Now listening on: https://localhost:7167
+2023-08-11 11:35:21.432 +05:30 [INF] Now listening on: http://localhost:5167
+2023-08-11 11:35:21.455 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 11:35:21.491 +05:30 [INF] Hosting environment: Development
+2023-08-11 11:35:21.509 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\
+2023-08-11 11:35:48.685 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger - -
+2023-08-11 11:35:48.891 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - -
+2023-08-11 11:35:49.058 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger - - - 0 - - 381.9880ms
+2023-08-11 11:35:50.415 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - - - 200 - text/html;charset=utf-8 1524.8010ms
+2023-08-11 11:35:50.559 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - -
+2023-08-11 11:35:50.632 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/swagger-ui.css - -
+2023-08-11 11:35:50.652 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 93.6249ms
+2023-08-11 11:35:50.682 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-11 11:35:50.686 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/swagger-ui.css - - - 0 143632 text/css 53.8801ms
+2023-08-11 11:35:50.796 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/favicon-32x32.png - -
+2023-08-11 11:35:50.824 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 11:35:50.826 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/favicon-32x32.png - - - 0 628 image/png 30.7210ms
+2023-08-11 11:35:50.861 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - -
+2023-08-11 11:35:51.486 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 624.5177ms
+2023-08-11 11:37:55.473 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - -
+2023-08-11 11:37:55.611 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:37:55.945 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:37:56.099 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:37:57.347 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:37:57.350 +05:30 [DBG] LoginId : admin, Password: admin@123
+2023-08-11 11:37:57.356 +05:30 [INF] Get user token : User Business
+2023-08-11 11:37:57.363 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:37:58.162 +05:30 [INF] Authorizing user : Identity Business
+2023-08-11 11:37:58.180 +05:30 [INF] creating user token : Identity Business
+2023-08-11 11:37:58.608 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-11 11:37:58.634 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 2512.5557ms
+2023-08-11 11:37:58.655 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:37:58.662 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/admin/admin@123 - - - 200 - text/plain;+charset=utf-8 3192.5687ms
+2023-08-11 11:37:58.706 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:37:58.717 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:37:58.724 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 18.5365ms
+2023-08-11 11:37:58.735 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:37:58.757 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:37:59.024 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:37:59.043 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:37:59.059 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:37:59.066 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:37:59.072 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:37:59.199 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:37:59.252 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 196.4808ms
+2023-08-11 11:37:59.257 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:37:59.264 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 529.1139ms
+2023-08-11 11:38:09.581 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/totalticketcount - -
+2023-08-11 11:38:09.585 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:09.590 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/totalticketcount - - - 204 - - 9.0060ms
+2023-08-11 11:38:09.640 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/totalticketcount - -
+2023-08-11 11:38:09.644 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:09.653 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API)'
+2023-08-11 11:38:09.665 +05:30 [INF] Route matched with {action = "totalTicketCount", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] totalTicketCount() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:38:09.681 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:38:09.711 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.Entities.TotalTicketCount, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:38:09.720 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API) in 44.5519ms
+2023-08-11 11:38:09.728 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API)'
+2023-08-11 11:38:09.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/totalticketcount - - - 200 - application/json;+charset=utf-8 93.4511ms
+2023-08-11 11:38:20.201 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:38:20.209 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:20.212 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 11.9378ms
+2023-08-11 11:38:20.217 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:38:20.222 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:20.227 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:38:20.232 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:38:20.240 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:38:20.244 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:38:20.247 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:38:20.257 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:38:20.262 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 22.6241ms
+2023-08-11 11:38:20.270 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:38:20.277 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 59.5754ms
+2023-08-11 11:38:22.493 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:38:22.495 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:22.500 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 8.1441ms
+2023-08-11 11:38:22.504 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:38:22.509 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:22.518 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:38:22.533 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:38:22.549 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:38:22.554 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:38:22.559 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:38:22.581 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:38:22.590 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 44.2337ms
+2023-08-11 11:38:22.595 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:38:22.598 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 93.7550ms
+2023-08-11 11:38:29.744 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:38:29.749 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:29.754 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 9.9499ms
+2023-08-11 11:38:29.757 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:38:29.766 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:29.770 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:38:29.776 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:38:29.784 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:38:29.786 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:38:29.790 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:38:29.801 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:38:29.809 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 25.55ms
+2023-08-11 11:38:29.815 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:38:29.821 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 63.5275ms
+2023-08-11 11:38:31.491 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:38:31.495 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:31.503 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 12.3502ms
+2023-08-11 11:38:31.507 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:38:31.511 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:31.515 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:38:31.520 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:38:31.532 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:38:31.534 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:38:31.537 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:38:31.548 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:38:31.554 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 22.0657ms
+2023-08-11 11:38:31.560 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:38:31.564 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 57.4762ms
+2023-08-11 11:38:37.781 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:38:37.786 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:37.791 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 10.0521ms
+2023-08-11 11:38:37.795 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:38:37.799 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:38:37.806 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:38:37.811 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:38:37.822 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:38:37.825 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:38:37.828 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:38:37.851 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:38:37.856 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 34.1441ms
+2023-08-11 11:38:37.861 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:38:37.868 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 72.9327ms
+2023-08-11 11:39:45.691 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/add/movie - -
+2023-08-11 11:39:45.695 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:39:45.701 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/add/movie - - - 204 - - 10.4061ms
+2023-08-11 11:39:45.706 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7167/api/MovieBooking/add/movie application/json 230
+2023-08-11 11:39:45.711 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:39:45.714 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.AddMovie (MovieBooking.API)'
+2023-08-11 11:39:45.728 +05:30 [INF] Route matched with {action = "AddMovie", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMovie(MovieBooking.API.Models.DTO.MovieDto) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:39:45.874 +05:30 [INF] Add movie : MovieBooking controller
+2023-08-11 11:39:45.877 +05:30 [DBG] movie: MovieBooking.API.Models.DTO.MovieDto
+2023-08-11 11:39:45.883 +05:30 [INF] Add movie : admin service
+2023-08-11 11:39:45.891 +05:30 [INF] Add movie to movie collection : admin repository
+2023-08-11 11:39:46.259 +05:30 [INF] Get movie list by name from movie collection : movie repository
+2023-08-11 11:39:46.442 +05:30 [INF] Executing OkObjectResult, writing value of type 'MovieBooking.API.Models.DTO.MovieResponse'.
+2023-08-11 11:39:46.449 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.AddMovie (MovieBooking.API) in 709.7878ms
+2023-08-11 11:39:46.455 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.AddMovie (MovieBooking.API)'
+2023-08-11 11:39:46.459 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7167/api/MovieBooking/add/movie application/json 230 - 200 - application/json;+charset=utf-8 753.8436ms
+2023-08-11 11:39:46.510 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:39:46.514 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:39:46.517 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 7.4424ms
+2023-08-11 11:39:46.524 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:39:46.534 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:39:46.545 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:39:46.551 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:39:46.558 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:39:46.561 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:39:46.564 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:39:46.576 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:39:46.582 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 24.0709ms
+2023-08-11 11:39:46.589 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:39:46.596 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 71.7380ms
+2023-08-11 11:39:58.408 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:39:58.418 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:39:58.439 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 32.4286ms
+2023-08-11 11:39:58.444 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:39:58.453 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:39:58.458 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:39:58.463 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:39:58.470 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:39:58.474 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:39:58.476 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:39:58.485 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:39:58.492 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 21.429ms
+2023-08-11 11:39:58.498 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:39:58.502 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 57.9173ms
+2023-08-11 11:40:03.889 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/Viduthalai - -
+2023-08-11 11:40:03.894 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:03.900 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:40:03.910 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:03.921 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:40:03.924 +05:30 [DBG] movieName: Viduthalai
+2023-08-11 11:40:03.966 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:40:03.972 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 54.2712ms
+2023-08-11 11:40:03.977 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:40:03.981 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/Viduthalai - - - 200 - application/json;+charset=utf-8 91.5437ms
+2023-08-11 11:40:05.643 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/ticketcountandstatus/Viduthalai/UMA - -
+2023-08-11 11:40:05.657 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:05.663 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetTotalticketandstatus (MovieBooking.API)'
+2023-08-11 11:40:05.674 +05:30 [INF] Route matched with {action = "GetTotalticketandstatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTotalticketandstatus(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:05.686 +05:30 [INF] Get movie tickets and status:MovieBooking controller
+2023-08-11 11:40:05.688 +05:30 [DBG] movieName: Viduthalai
+2023-08-11 11:40:05.691 +05:30 [DBG] TheatreName: UMA
+2023-08-11 11:40:05.723 +05:30 [INF] Executing OkObjectResult, writing value of type 'MovieBooking.API.Models.Entities.InitialMovieTicket'.
+2023-08-11 11:40:05.730 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GetTotalticketandstatus (MovieBooking.API) in 46.7587ms
+2023-08-11 11:40:05.736 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetTotalticketandstatus (MovieBooking.API)'
+2023-08-11 11:40:05.742 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/ticketcountandstatus/Viduthalai/UMA - - - 200 - application/json;+charset=utf-8 98.4746ms
+2023-08-11 11:40:10.515 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/update/movie - -
+2023-08-11 11:40:10.520 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:10.528 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:40:10.537 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/update/movie - - - 204 - - 21.8786ms
+2023-08-11 11:40:10.540 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:10.541 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7167/api/MovieBooking/update/movie application/json 91
+2023-08-11 11:40:10.547 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 19.6581ms
+2023-08-11 11:40:10.552 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:40:10.555 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:10.559 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:10.562 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.UpdateMovie (MovieBooking.API)'
+2023-08-11 11:40:10.566 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:40:10.574 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:10.577 +05:30 [INF] Route matched with {action = "UpdateMovie", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMovie(MovieBooking.API.Models.DTO.InitialMovieTicketDto) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:10.585 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:40:10.594 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:40:10.597 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:40:10.598 +05:30 [INF] Update movie : MovieBooking controller
+2023-08-11 11:40:10.609 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:40:10.642 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 56.6167ms
+2023-08-11 11:40:10.652 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:40:10.656 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 103.8165ms
+2023-08-11 11:40:10.711 +05:30 [INF] Executing OkObjectResult, writing value of type 'MovieBooking.API.Models.DTO.MovieResponse'.
+2023-08-11 11:40:10.716 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.UpdateMovie (MovieBooking.API) in 124.7537ms
+2023-08-11 11:40:10.721 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.UpdateMovie (MovieBooking.API)'
+2023-08-11 11:40:10.726 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7167/api/MovieBooking/update/movie application/json 91 - 200 - application/json;+charset=utf-8 184.9918ms
+2023-08-11 11:40:18.675 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:40:18.679 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:18.684 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 9.1897ms
+2023-08-11 11:40:18.693 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:40:18.698 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:18.702 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:40:18.706 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:18.712 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:40:18.716 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:40:18.721 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:40:18.775 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:40:18.780 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 67.86ms
+2023-08-11 11:40:18.788 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:40:18.794 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 100.8504ms
+2023-08-11 11:40:26.214 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/delete/Viduthalai - -
+2023-08-11 11:40:26.228 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:26.231 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/delete/Viduthalai - - - 204 - - 16.9017ms
+2023-08-11 11:40:26.250 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7167/api/MovieBooking/delete/Viduthalai application/json -
+2023-08-11 11:40:26.260 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:26.272 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.DeleteMovie (MovieBooking.API)'
+2023-08-11 11:40:26.286 +05:30 [INF] Route matched with {action = "DeleteMovie", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteMovie(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:26.295 +05:30 [INF] Delete movie from MovieBooking Controller
+2023-08-11 11:40:26.302 +05:30 [DBG] moviename: Viduthalai
+2023-08-11 11:40:26.312 +05:30 [INF] Delete movie : movie Business
+2023-08-11 11:40:26.319 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:40:26.341 +05:30 [INF] Delete movie from movie collection : movie repository
+2023-08-11 11:40:26.642 +05:30 [INF] Executing OkObjectResult, writing value of type 'MovieBooking.API.Models.DTO.MovieResponse'.
+2023-08-11 11:40:26.646 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.DeleteMovie (MovieBooking.API) in 354.4177ms
+2023-08-11 11:40:26.653 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.DeleteMovie (MovieBooking.API)'
+2023-08-11 11:40:26.657 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7167/api/MovieBooking/delete/Viduthalai application/json - - 200 - application/json;+charset=utf-8 406.5581ms
+2023-08-11 11:40:26.680 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:40:26.694 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:26.752 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 62.6300ms
+2023-08-11 11:40:26.779 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:40:26.802 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:26.806 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:40:26.809 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:26.816 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:40:26.819 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:40:26.822 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:40:26.835 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:40:26.842 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 25.2157ms
+2023-08-11 11:40:26.847 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:40:26.852 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 72.5688ms
+2023-08-11 11:40:34.541 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/totalticketcount - -
+2023-08-11 11:40:34.560 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:34.570 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/totalticketcount - - - 204 - - 29.4988ms
+2023-08-11 11:40:34.580 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/totalticketcount - -
+2023-08-11 11:40:34.587 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:34.591 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API)'
+2023-08-11 11:40:34.597 +05:30 [INF] Route matched with {action = "totalTicketCount", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] totalTicketCount() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:34.608 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:40:34.632 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.Entities.TotalTicketCount, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:40:34.638 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API) in 29.9724ms
+2023-08-11 11:40:34.644 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.totalTicketCount (MovieBooking.API)'
+2023-08-11 11:40:34.648 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/totalticketcount - - - 200 - application/json;+charset=utf-8 68.4416ms
+2023-08-11 11:40:38.345 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:40:38.363 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:38.384 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All/moviestatus - - - 204 - - 38.5256ms
+2023-08-11 11:40:38.395 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - -
+2023-08-11 11:40:38.399 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:38.404 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:40:38.407 +05:30 [INF] Route matched with {action = "ViewAllMovieStatus", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovieStatus() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:38.413 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:40:38.417 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:40:38.421 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:40:38.430 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.MovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:40:38.438 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API) in 25.3581ms
+2023-08-11 11:40:38.443 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovieStatus (MovieBooking.API)'
+2023-08-11 11:40:38.450 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All/moviestatus - - - 200 - application/json;+charset=utf-8 55.2356ms
+2023-08-11 11:40:56.012 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - -
+2023-08-11 11:40:56.057 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:56.060 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:40:56.066 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:56.073 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:40:56.076 +05:30 [DBG] LoginId : sharan, Password: kumar
+2023-08-11 11:40:56.083 +05:30 [INF] Get user token : User Business
+2023-08-11 11:40:56.085 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:40:56.096 +05:30 [INF] Authorizing user : Identity Business
+2023-08-11 11:40:56.102 +05:30 [INF] creating user token : Identity Business
+2023-08-11 11:40:56.105 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-11 11:40:56.112 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 38.9281ms
+2023-08-11 11:40:56.116 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:40:56.120 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - - - 200 - text/plain;+charset=utf-8 107.5222ms
+2023-08-11 11:40:56.184 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:40:56.189 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:56.192 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 9.0990ms
+2023-08-11 11:40:56.199 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:40:56.204 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:40:56.209 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:40:56.213 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:40:56.225 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:40:56.228 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:40:56.231 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:40:56.248 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:40:56.258 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 32.6607ms
+2023-08-11 11:40:56.263 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:40:56.268 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 68.8297ms
+2023-08-11 11:41:09.502 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/Movies/Search/dd return - -
+2023-08-11 11:41:09.505 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:09.509 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/Movies/Search/dd return - - - 204 - - 7.0615ms
+2023-08-11 11:41:09.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/Movies/Search/dd return application.json -
+2023-08-11 11:41:09.522 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:09.525 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.SearchMovie (MovieBooking.API)'
+2023-08-11 11:41:09.537 +05:30 [INF] Route matched with {action = "SearchMovie", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovie(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:09.546 +05:30 [INF] Get movie by name from MovieBooking Controller
+2023-08-11 11:41:09.550 +05:30 [DBG] moviename: dd return
+2023-08-11 11:41:09.555 +05:30 [INF] Get movie by name : movie Business
+2023-08-11 11:41:09.560 +05:30 [INF] Get movie list by name from movie collection : movie repository
+2023-08-11 11:41:09.577 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:41:09.584 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.SearchMovie (MovieBooking.API) in 39.1585ms
+2023-08-11 11:41:09.597 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.SearchMovie (MovieBooking.API)'
+2023-08-11 11:41:09.602 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/Movies/Search/dd return application.json - - 200 - application/json;+charset=utf-8 88.5602ms
+2023-08-11 11:41:09.618 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:41:09.621 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:09.624 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 8.2727ms
+2023-08-11 11:41:09.630 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:41:09.634 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:09.638 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:41:09.642 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:09.650 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:41:09.652 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:41:09.655 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:41:09.666 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:41:09.671 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 21.6415ms
+2023-08-11 11:41:09.677 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:41:09.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 51.9829ms
+2023-08-11 11:41:16.374 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/Movies/Search/ - -
+2023-08-11 11:41:16.374 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:41:16.379 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:16.378 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:16.374 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:41:16.382 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 8.0910ms
+2023-08-11 11:41:16.388 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:41:16.385 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/Movies/Search/ - - - 204 - - 10.9710ms
+2023-08-11 11:41:16.389 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/Movies/Search/ application.json -
+2023-08-11 11:41:16.390 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:16.397 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:16.406 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:16.409 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 35.7971ms
+2023-08-11 11:41:16.413 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:41:16.417 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:41:16.425 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:16.429 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:16.440 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:41:16.450 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-11 11:41:16.454 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:41:16.458 +05:30 [DBG] LoginId : Movies, Password: Search
+2023-08-11 11:41:16.462 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:41:16.468 +05:30 [INF] Get user token : User Business
+2023-08-11 11:41:16.501 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-11 11:41:16.502 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:41:16.523 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 83.1873ms
+2023-08-11 11:41:16.528 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:41:16.532 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:41:16.535 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:16.540 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 151.9252ms
+2023-08-11 11:41:16.543 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:41:16.549 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:16.552 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-11 11:41:16.556 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:41:16.561 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 111.3524ms
+2023-08-11 11:41:16.564 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:41:16.572 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-11 11:41:16.574 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:41:16.578 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/Movies/Search/ application.json - - 400 - text/plain;+charset=utf-8 188.8664ms
+2023-08-11 11:41:16.588 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:41:16.595 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 39.4957ms
+2023-08-11 11:41:16.600 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:41:16.606 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 78.1179ms
+2023-08-11 11:41:21.452 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/cart/sharan - -
+2023-08-11 11:41:21.457 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:21.466 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/cart/sharan - - - 204 - - 14.9184ms
+2023-08-11 11:41:21.477 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/cart/sharan application.json -
+2023-08-11 11:41:21.481 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:21.486 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API)'
+2023-08-11 11:41:21.503 +05:30 [INF] Route matched with {action = "GetCartDetails", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartDetails(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:21.524 +05:30 [INF] Get cart details:MovieBooking controller
+2023-08-11 11:41:21.526 +05:30 [DBG] username: sharan
+2023-08-11 11:41:21.534 +05:30 [INF] cart details : ticket business
+2023-08-11 11:41:21.642 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TicketDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:41:21.674 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API) in 152.7356ms
+2023-08-11 11:41:21.678 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API)'
+2023-08-11 11:41:21.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/cart/sharan application.json - - 200 - application/json;+charset=utf-8 204.4868ms
+2023-08-11 11:41:28.646 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:41:28.651 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:28.669 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 22.7945ms
+2023-08-11 11:41:28.674 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:41:28.677 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:28.680 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:41:28.684 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:28.694 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:41:28.697 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:41:28.701 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:41:28.712 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:41:28.717 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 23.2499ms
+2023-08-11 11:41:28.727 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:41:28.732 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 58.3685ms
+2023-08-11 11:41:30.762 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - -
+2023-08-11 11:41:30.771 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:30.774 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:41:30.787 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:30.799 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:41:30.808 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:41:30.838 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:41:30.847 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 48.9152ms
+2023-08-11 11:41:30.856 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:41:30.860 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - - - 200 - application/json;+charset=utf-8 98.0990ms
+2023-08-11 11:41:33.661 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/Bookedseats/DD Returns/UMA - -
+2023-08-11 11:41:33.661 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - -
+2023-08-11 11:41:33.673 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:33.667 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:33.661 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/MoviestatusTicketcount/DD Returns/UMA - -
+2023-08-11 11:41:33.677 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:41:33.682 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetTotalBookedSeatsCount (MovieBooking.API)'
+2023-08-11 11:41:33.686 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:33.693 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:33.700 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetAvailableMovieTickets (MovieBooking.API)'
+2023-08-11 11:41:33.703 +05:30 [INF] Route matched with {action = "GetTotalBookedSeatsCount", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTotalBookedSeatsCount(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:33.708 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:41:33.719 +05:30 [INF] Route matched with {action = "GetAvailableMovieTickets", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableMovieTickets(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:33.723 +05:30 [INF] Get available movie tickets:MovieBooking controller
+2023-08-11 11:41:33.725 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:41:33.736 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:41:33.745 +05:30 [INF] Get available movie tickets:MovieBooking controller
+2023-08-11 11:41:33.747 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:41:33.748 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:41:33.756 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 48.0635ms
+2023-08-11 11:41:33.767 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:41:33.781 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - - - 200 - application/json;+charset=utf-8 120.0600ms
+2023-08-11 11:41:33.790 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2023-08-11 11:41:33.801 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:41:33.802 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GetAvailableMovieTickets (MovieBooking.API) in 68.9153ms
+2023-08-11 11:41:33.810 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GetTotalBookedSeatsCount (MovieBooking.API) in 89.7384ms
+2023-08-11 11:41:33.812 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetAvailableMovieTickets (MovieBooking.API)'
+2023-08-11 11:41:33.819 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetTotalBookedSeatsCount (MovieBooking.API)'
+2023-08-11 11:41:33.827 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/Bookedseats/DD Returns/UMA - - - 200 - application/json;+charset=utf-8 167.3702ms
+2023-08-11 11:41:33.823 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/MoviestatusTicketcount/DD Returns/UMA - - - 200 - application/json;+charset=utf-8 163.4132ms
+2023-08-11 11:41:39.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - -
+2023-08-11 11:41:39.024 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:39.026 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:41:39.030 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:39.038 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:41:39.041 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:41:39.052 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:41:39.058 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 20.1736ms
+2023-08-11 11:41:39.063 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:41:39.067 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - - - 200 - application/json;+charset=utf-8 61.5340ms
+2023-08-11 11:41:40.073 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - -
+2023-08-11 11:41:40.077 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:40.081 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:41:40.087 +05:30 [INF] Route matched with {action = "GettheatreNames", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettheatreNames(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:40.096 +05:30 [INF] Get theatre details:MovieBooking controller
+2023-08-11 11:41:40.100 +05:30 [DBG] movieName: DD Returns
+2023-08-11 11:41:40.112 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-11 11:41:40.118 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API) in 21.5484ms
+2023-08-11 11:41:40.126 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GettheatreNames (MovieBooking.API)'
+2023-08-11 11:41:40.136 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/theatrename/DD Returns - - - 200 - application/json;+charset=utf-8 63.6340ms
+2023-08-11 11:41:42.730 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/DD Returns/booktickets - -
+2023-08-11 11:41:42.735 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:42.743 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/DD Returns/booktickets - - - 204 - - 12.3632ms
+2023-08-11 11:41:42.750 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7167/api/MovieBooking/DD Returns/booktickets application/json 84
+2023-08-11 11:41:42.763 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:42.776 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.BookTicket (MovieBooking.API)'
+2023-08-11 11:41:42.792 +05:30 [INF] Route matched with {action = "BookTicket", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookTicket(System.String, MovieBooking.API.Models.DTO.TicketBookRequest) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:42.852 +05:30 [INF] Book ticket from MovieBooking Controller
+2023-08-11 11:41:42.855 +05:30 [DBG] moviename: DD Returns, ticket: MovieBooking.API.Models.DTO.TicketBookRequest
+2023-08-11 11:41:42.861 +05:30 [INF] Book movie : ticket business
+2023-08-11 11:41:42.869 +05:30 [INF] Check if movie exists in movie collection : ticket repository
+2023-08-11 11:41:42.899 +05:30 [INF] Add ticket to ticket collection : ticket repository
+2023-08-11 11:41:42.978 +05:30 [INF] Executing OkObjectResult, writing value of type 'MovieBooking.API.Models.DTO.TicketBookRequest'.
+2023-08-11 11:41:42.985 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.BookTicket (MovieBooking.API) in 180.8116ms
+2023-08-11 11:41:43.000 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.BookTicket (MovieBooking.API)'
+2023-08-11 11:41:43.024 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7167/api/MovieBooking/DD Returns/booktickets application/json 84 - 200 - application/json;+charset=utf-8 274.5931ms
+2023-08-11 11:41:43.040 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/cart/sharan - -
+2023-08-11 11:41:43.048 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:43.059 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/cart/sharan - - - 204 - - 19.5400ms
+2023-08-11 11:41:43.067 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/cart/sharan application.json -
+2023-08-11 11:41:43.087 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:43.092 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API)'
+2023-08-11 11:41:43.097 +05:30 [INF] Route matched with {action = "GetCartDetails", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartDetails(System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:43.113 +05:30 [INF] Get cart details:MovieBooking controller
+2023-08-11 11:41:43.117 +05:30 [DBG] username: sharan
+2023-08-11 11:41:43.122 +05:30 [INF] cart details : ticket business
+2023-08-11 11:41:43.138 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TicketDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:41:43.146 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API) in 33.3241ms
+2023-08-11 11:41:43.153 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.GetCartDetails (MovieBooking.API)'
+2023-08-11 11:41:43.160 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/cart/sharan application.json - - 200 - application/json;+charset=utf-8 93.1583ms
+2023-08-11 11:41:52.772 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:41:52.779 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:52.783 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/All - - - 204 - - 10.6043ms
+2023-08-11 11:41:52.792 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/All - -
+2023-08-11 11:41:52.825 +05:30 [INF] CORS policy execution successful.
+2023-08-11 11:41:52.830 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:41:52.834 +05:30 [INF] Route matched with {action = "ViewAllMovies", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewAllMovies() on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-11 11:41:52.840 +05:30 [INF] Get all movies from MovieBooking Controller
+2023-08-11 11:41:52.843 +05:30 [INF] Get all movies : movie Business
+2023-08-11 11:41:52.846 +05:30 [INF] Get movie list from movie collection : movie repository
+2023-08-11 11:41:52.857 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MovieBooking.API.Models.DTO.TotalMovieDto, MovieBooking.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-11 11:41:52.864 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API) in 23.1444ms
+2023-08-11 11:41:52.869 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.ViewAllMovies (MovieBooking.API)'
+2023-08-11 11:41:52.873 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/All - - - 200 - application/json;+charset=utf-8 81.1585ms

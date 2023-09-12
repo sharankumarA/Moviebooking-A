@@ -1,0 +1,28 @@
+2023-08-21 12:00:04.836 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:18006/swagger/index.html - -
+2023-08-21 12:00:04.836 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:18006/swagger - -
+2023-08-21 12:00:08.951 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:18006/swagger - - - 0 - - 4150.1236ms
+2023-08-21 12:00:10.552 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:18006/swagger/index.html - - - 200 - text/html;charset=utf-8 5765.0731ms
+2023-08-21 12:00:10.719 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:18006/swagger/swagger-ui.css - -
+2023-08-21 12:00:10.823 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-21 12:00:10.824 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:18006/swagger/swagger-ui.css - - - 0 144929 text/css 105.0167ms
+2023-08-21 12:00:10.934 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:18006/swagger/favicon-32x32.png - -
+2023-08-21 12:00:10.958 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:18006/swagger/v1/swagger.json - -
+2023-08-21 12:00:10.961 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-21 12:00:10.963 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:18006/swagger/favicon-32x32.png - - - 0 628 image/png 28.0296ms
+2023-08-21 12:00:11.187 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:18006/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 229.7146ms
+2023-08-21 12:25:51.834 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-08-21 12:25:51.938 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-21 12:25:53.365 +00:00 [INF] Now listening on: http://[::]:80
+2023-08-21 12:25:53.370 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 12:25:53.371 +00:00 [INF] Hosting environment: Development
+2023-08-21 12:25:53.372 +00:00 [INF] Content root path: /app/
+2023-08-21 12:25:53.918 +00:00 [INF] Kafka consumer initiated
+2023-08-21 12:25:55.209 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49157/swagger/index.html - -
+2023-08-21 12:25:55.209 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49157/swagger - -
+2023-08-21 12:25:55.321 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49157/swagger - - - 0 - - 115.6460ms
+2023-08-21 12:25:55.592 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49157/swagger/index.html - - - 200 - text/html;charset=utf-8 389.1518ms
+2023-08-21 12:25:55.986 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49157/swagger/favicon-32x32.png - -
+2023-08-21 12:25:56.020 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49157/swagger/v1/swagger.json - -
+2023-08-21 12:25:56.023 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-21 12:25:56.023 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49157/swagger/favicon-32x32.png - - - 0 628 image/png 36.8420ms
+2023-08-21 12:25:56.160 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49157/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.7824ms

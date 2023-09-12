@@ -1,0 +1,14 @@
+2023-08-19 00:17:33.976 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-19 00:17:35.803 +05:30 [INF] Now listening on: https://localhost:7167
+2023-08-19 00:17:35.810 +05:30 [INF] Now listening on: http://localhost:5167
+2023-08-19 00:17:35.823 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-19 00:17:35.827 +05:30 [INF] Hosting environment: Development
+2023-08-19 00:17:35.831 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\
+2023-08-19 00:17:44.454 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - -
+2023-08-19 00:17:44.454 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger - -
+2023-08-19 00:17:46.374 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger - - - 0 - - 1908.4020ms
+2023-08-19 00:17:48.632 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - - - 200 - text/html;charset=utf-8 4195.8328ms
+2023-08-19 00:17:48.891 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - -
+2023-08-19 00:17:48.919 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 28.2172ms
+2023-08-19 00:17:50.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - -
+2023-08-19 00:17:50.927 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 676.7170ms

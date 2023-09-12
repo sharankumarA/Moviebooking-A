@@ -1,0 +1,20 @@
+2023-08-09 19:17:06.006 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-09 19:17:09.980 +05:30 [INF] Kafka consumer initiated
+2023-08-09 19:17:10.093 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-09 19:17:12.302 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-09 19:17:12.319 +05:30 [INF] Hosting environment: Development
+2023-08-09 19:17:12.332 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-09 19:17:14.176 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-09 19:17:14.200 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-09 19:17:21.124 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 6977.7105ms
+2023-08-09 19:17:23.049 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 8849.2675ms
+2023-08-09 19:17:23.540 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/swagger-ui.css - -
+2023-08-09 19:17:23.552 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-09 19:17:23.675 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 122.8910ms
+2023-08-09 19:17:23.874 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-09 19:17:23.891 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/swagger-ui.css - - - 200 144929 text/css 350.6712ms
+2023-08-09 19:17:24.500 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - -
+2023-08-09 19:17:24.503 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-09 19:17:24.518 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - - - 200 628 image/png 18.3295ms
+2023-08-09 19:17:26.479 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-09 19:17:26.751 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 271.1000ms

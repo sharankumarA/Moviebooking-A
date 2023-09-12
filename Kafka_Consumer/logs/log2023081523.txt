@@ -1,0 +1,20 @@
+2023-08-15 23:52:12.845 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-15 23:52:17.783 +05:30 [INF] Kafka consumer initiated
+2023-08-15 23:52:17.874 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-15 23:52:17.877 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-15 23:52:17.880 +05:30 [INF] Hosting environment: Development
+2023-08-15 23:52:17.882 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-15 23:52:21.893 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-15 23:52:22.075 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-15 23:52:22.221 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 347.2835ms
+2023-08-15 23:52:24.665 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 2589.0501ms
+2023-08-15 23:52:24.765 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-15 23:52:24.785 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/swagger-ui-bundle.js - -
+2023-08-15 23:52:24.786 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/swagger-ui-standalone-preset.js - -
+2023-08-15 23:52:24.855 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 90.2113ms
+2023-08-15 23:52:24.876 +05:30 [INF] The file /swagger-ui-bundle.js was not modified
+2023-08-15 23:52:24.876 +05:30 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2023-08-15 23:52:24.901 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 114.8327ms
+2023-08-15 23:52:24.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 95.0901ms
+2023-08-15 23:52:25.347 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-15 23:52:25.851 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 504.3956ms

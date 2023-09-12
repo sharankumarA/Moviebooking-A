@@ -1,0 +1,82 @@
+networks:
+  backend: {}
+services:
+  kafka_consumer:
+    build:
+      context: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API
+      dockerfile: Kafka_Consumer/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Kafka_Consumer
+      target: base
+    container_name: Kafka_Consumer_1
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: moviebookingapp.azurecr.io/kafkaconsumer:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/Kafka_Consumer.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      backend: {}
+    ports:
+    - published: 18006
+      target: 80
+    - target: 80
+    tty: true
+    volumes:
+    - C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer:/app:rw
+    - C:\Users\lenov\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\lenov\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\lenov\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+    - C:\Users\lenov\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API:/src:rw
+  moviebooking.api:
+    build:
+      context: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API
+      dockerfile: MovieBooking.API/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: MovieBooking.API
+      target: base
+    container_name: MovieBooking.API_1
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: moviebookingapp.azurecr.io/moviebookingapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/MovieBooking.API.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      backend: {}
+    ports:
+    - published: 18007
+      target: 80
+    - target: 80
+    - target: 443
+    tty: true
+    volumes:
+    - C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API:/app:rw
+    - C:\Users\lenov\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\lenov\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\lenov\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+    - C:\Users\lenov\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API:/src:rw
+version: '3.4'

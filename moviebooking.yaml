@@ -1,0 +1,94 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: moviebooking
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: moviebooking
+  template:
+    metadata:
+      labels:
+        app: moviebooking
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": linux
+      containers:
+      - name: moviebooking
+        image: moviebookingapp.azurecr.io/moviebookingapi:latest
+        imagePullPolicy: Always
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi
+          limits:
+            cpu: 250m
+            memory: 256Mi
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+      - name: auth
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: moviebooking
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "false"
+spec:
+  type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  selector:
+    app: moviebooking
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafkaconsumer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kafkaconsumer
+  template:
+    metadata:
+      labels:
+        app: kafkaconsumer
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": linux
+      containers:
+      - name: kafkaconsumer
+        image: moviebookingapp.azurecr.io/kafkaconsumer:latest
+        imagePullPolicy: Always
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi
+          limits:
+            cpu: 250m
+            memory: 256Mi
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+      - name: auth
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kafkaconsumer
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "false"
+spec:
+  type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  selector:
+    app: kafkaconsumer

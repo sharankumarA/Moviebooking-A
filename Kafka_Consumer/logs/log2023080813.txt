@@ -1,0 +1,34 @@
+2023-08-08 13:33:46.568 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-08 13:33:49.855 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-08 13:33:49.948 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 13:33:49.955 +05:30 [INF] Hosting environment: Development
+2023-08-08 13:33:49.964 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-08 13:33:50.240 +05:30 [INF] Kafka consumer initiated
+2023-08-08 13:33:51.580 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-08 13:33:51.580 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-08 13:33:51.973 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 402.8999ms
+2023-08-08 13:33:53.183 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 1615.2452ms
+2023-08-08 13:33:53.567 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 13:33:53.813 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 246.2993ms
+2023-08-08 13:33:54.853 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - -
+2023-08-08 13:33:55.663 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-08 13:33:55.667 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - - - 0 628 image/png 813.1007ms
+2023-08-08 13:33:56.127 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-08 13:33:56.421 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 293.3711ms
+2023-08-08 13:53:37.159 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-08 13:53:38.679 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-08 13:53:38.885 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 13:53:38.893 +05:30 [INF] Hosting environment: Development
+2023-08-08 13:53:38.913 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-08 13:53:39.071 +05:30 [INF] Kafka consumer initiated
+2023-08-08 13:53:41.373 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-08 13:53:41.505 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-08 13:53:42.497 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 1142.3875ms
+2023-08-08 13:53:43.570 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 2064.8097ms
+2023-08-08 13:53:43.646 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 13:53:43.722 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 76.2435ms
+2023-08-08 13:53:43.841 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - -
+2023-08-08 13:53:43.895 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-08 13:53:43.909 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - - - 0 628 image/png 68.4764ms
+2023-08-08 13:53:44.064 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-08 13:53:44.436 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 371.7312ms

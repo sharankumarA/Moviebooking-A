@@ -1,0 +1,108 @@
+2023-08-07 10:25:35.345 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-07 10:25:37.066 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-07 10:25:37.114 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 10:25:37.126 +05:30 [INF] Hosting environment: Development
+2023-08-07 10:25:37.128 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-07 10:25:37.391 +05:30 [INF] Kafka consumer initiated
+2023-08-07 10:25:39.728 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-07 10:25:39.893 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 167.6415ms
+2023-08-07 10:25:39.932 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-07 10:25:40.639 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 706.8384ms
+2023-08-07 10:25:40.708 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 10:25:40.838 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 130.5369ms
+2023-08-07 10:25:41.043 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - -
+2023-08-07 10:25:41.092 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-07 10:25:41.095 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - - - 0 628 image/png 51.7965ms
+2023-08-07 10:25:41.173 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-07 10:25:41.335 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 161.8852ms
+2023-08-07 10:34:26.018 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Valimai - -
+2023-08-07 10:34:26.019 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Valimai - -
+2023-08-07 10:34:26.073 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-07 10:34:26.084 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:34:26.084 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:34:26.087 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Valimai - - - 204 - - 68.0396ms
+2023-08-07 10:34:26.087 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Valimai - - - 204 - - 69.2826ms
+2023-08-07 10:34:26.092 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Valimai - -
+2023-08-07 10:34:26.094 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Valimai - -
+2023-08-07 10:34:26.096 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:34:26.096 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:34:26.484 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-07 10:34:26.484 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-07 10:34:26.518 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-07 10:34:26.518 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-07 10:34:26.538 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-07 10:34:26.538 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-07 10:34:26.539 +05:30 [DBG] moviename: Valimai
+2023-08-07 10:34:26.540 +05:30 [DBG] moviename: Valimai
+2023-08-07 10:34:26.542 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-07 10:34:26.543 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-07 10:34:26.551 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-07 10:34:26.551 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-07 10:34:26.909 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-07 10:34:26.909 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-07 10:34:26.926 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 400.9049ms
+2023-08-07 10:34:26.926 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 397.51ms
+2023-08-07 10:34:26.932 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-07 10:34:26.932 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-07 10:34:26.936 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Valimai - - - 200 - application/json;+charset=utf-8 842.6758ms
+2023-08-07 10:34:26.936 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Valimai - - - 200 - application/json;+charset=utf-8 844.4495ms
+2023-08-07 10:50:21.785 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Valimai - -
+2023-08-07 10:50:21.818 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:50:21.821 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Valimai - - - 204 - - 35.4128ms
+2023-08-07 10:50:21.827 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Valimai - -
+2023-08-07 10:50:21.831 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:50:21.832 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Valimai - -
+2023-08-07 10:50:21.836 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:50:21.837 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Valimai - - - 204 - - 5.6870ms
+2023-08-07 10:50:21.839 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Valimai - -
+2023-08-07 10:50:21.839 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:50:21.843 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-07 10:50:21.843 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-07 10:50:21.845 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-07 10:50:21.846 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-07 10:50:21.850 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-07 10:50:21.851 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-07 10:50:21.852 +05:30 [DBG] moviename: Valimai
+2023-08-07 10:50:21.853 +05:30 [DBG] moviename: Valimai
+2023-08-07 10:50:21.854 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-07 10:50:21.855 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-07 10:50:21.856 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-07 10:50:21.857 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-07 10:50:21.899 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-07 10:50:21.899 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-07 10:50:21.901 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 52.5141ms
+2023-08-07 10:50:21.902 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 50.7857ms
+2023-08-07 10:50:21.904 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-07 10:50:21.906 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-07 10:50:21.907 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Valimai - - - 200 - application/json;+charset=utf-8 68.7331ms
+2023-08-07 10:50:21.909 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Valimai - - - 200 - application/json;+charset=utf-8 82.1290ms
+2023-08-07 10:50:34.169 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Valimai - -
+2023-08-07 10:50:34.170 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Valimai - -
+2023-08-07 10:50:34.170 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:50:34.172 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:50:34.174 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Valimai - - - 204 - - 5.3835ms
+2023-08-07 10:50:34.175 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Valimai - - - 204 - - 5.0837ms
+2023-08-07 10:50:34.176 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Valimai - -
+2023-08-07 10:50:34.177 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Valimai - -
+2023-08-07 10:50:34.179 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:50:34.179 +05:30 [INF] CORS policy execution successful.
+2023-08-07 10:50:34.181 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-07 10:50:34.184 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-07 10:50:34.185 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-07 10:50:34.187 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-07 10:50:34.188 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-07 10:50:34.191 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-07 10:50:34.192 +05:30 [DBG] moviename: Valimai
+2023-08-07 10:50:34.193 +05:30 [DBG] moviename: Valimai
+2023-08-07 10:50:34.194 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-07 10:50:34.195 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-07 10:50:34.195 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-07 10:50:34.196 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-07 10:50:34.201 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-07 10:50:34.205 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-07 10:50:34.205 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 17.0001ms
+2023-08-07 10:50:34.207 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 16.2742ms
+2023-08-07 10:50:34.209 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-07 10:50:34.210 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-07 10:50:34.211 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Valimai - - - 200 - application/json;+charset=utf-8 34.9838ms
+2023-08-07 10:50:34.213 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Valimai - - - 200 - application/json;+charset=utf-8 35.4307ms

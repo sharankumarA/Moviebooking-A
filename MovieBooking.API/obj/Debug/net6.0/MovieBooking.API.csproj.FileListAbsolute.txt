@@ -1,0 +1,229 @@
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\appsettings.Development.json
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\appsettings.json
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.exe
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.deps.json
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.runtimeconfig.json
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\ref\MovieBooking.API.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.pdb
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.csproj.AssemblyReference.cache
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.AssemblyInfoInputs.cache
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.AssemblyInfo.cs
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.csproj.CoreCompileInputs.cache
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.MvcApplicationPartsAssemblyInfo.cs
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.MvcApplicationPartsAssemblyInfo.cache
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\staticwebassets.build.json
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\staticwebassets.development.json
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\scopedcss\bundle\MovieBooking.API.styles.css
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.csproj.CopyComplete
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\ref\MovieBooking.API.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.pdb
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.genruntimeconfig.cache
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AWSSDK.Core.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\DnsClient.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\SharpCompress.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Snappier.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\ZstdSharp.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AutoMapper.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Scrutor.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+D:\FSE 1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\appsettings.json
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.exe
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.deps.json
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.runtimeconfig.json
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.pdb
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\DnsClient.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Scrutor.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Snappier.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\scopedcss\bundle\MovieBooking.API.styles.css
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.csproj.CopyComplete
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\refint\MovieBooking.API.dll
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.pdb
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\FSE1\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\ref\MovieBooking.API.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\appsettings.json
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.exe
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.deps.json
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.runtimeconfig.json
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MovieBooking.API.pdb
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\DnsClient.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Scrutor.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\SharpCompress.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Snappier.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\ZstdSharp.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.csproj.AssemblyReference.cache
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.AssemblyInfoInputs.cache
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.AssemblyInfo.cs
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.csproj.CoreCompileInputs.cache
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\scopedcss\bundle\MovieBooking.API.styles.css
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.csproj.CopyComplete
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\refint\MovieBooking.API.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.pdb
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\MovieBooking.API.genruntimeconfig.cache
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\obj\Debug\net6.0\ref\MovieBooking.API.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Serilog.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Confluent.Kafka.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\linux-arm64\native\librdkafka.so
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\linux-x64\native\alpine-librdkafka.so
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\linux-x64\native\centos6-librdkafka.so
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\linux-x64\native\centos7-librdkafka.so
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\linux-x64\native\librdkafka.so
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\osx-arm64\native\librdkafka.dylib
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\osx-x64\native\librdkafka.dylib
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x64\native\libcrypto-3-x64.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x64\native\libcurl.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x64\native\librdkafka.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x64\native\librdkafkacpp.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x64\native\libssl-3-x64.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x64\native\msvcp140.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x64\native\vcruntime140.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x64\native\zlib1.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x64\native\zstd.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x86\native\libcrypto-3.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x86\native\libcurl.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x86\native\librdkafka.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x86\native\librdkafkacpp.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x86\native\libssl-3.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x86\native\msvcp140.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x86\native\vcruntime140.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x86\native\zlib1.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win-x86\native\zstd.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\System.Web.Cors.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\System.Web.Http.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\System.Web.Http.Cors.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Azure.Security.KeyVault.Certificates.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Identity.Web.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Identity.Web.UI.Views.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\Microsoft.Identity.Web.UI.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

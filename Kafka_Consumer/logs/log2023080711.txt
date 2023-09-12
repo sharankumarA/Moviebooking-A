@@ -1,0 +1,30 @@
+2023-08-07 11:04:18.025 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Valimai - -
+2023-08-07 11:04:18.027 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Valimai - -
+2023-08-07 11:04:18.057 +05:30 [INF] CORS policy execution successful.
+2023-08-07 11:04:18.057 +05:30 [INF] CORS policy execution successful.
+2023-08-07 11:04:18.059 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Valimai - - - 204 - - 72.3220ms
+2023-08-07 11:04:18.061 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Valimai - - - 204 - - 35.0864ms
+2023-08-07 11:04:18.067 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Valimai - -
+2023-08-07 11:04:18.068 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Valimai - -
+2023-08-07 11:04:18.070 +05:30 [INF] CORS policy execution successful.
+2023-08-07 11:04:18.071 +05:30 [INF] CORS policy execution successful.
+2023-08-07 11:04:18.074 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-07 11:04:18.074 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-07 11:04:18.076 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-07 11:04:18.077 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-07 11:04:18.079 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-07 11:04:18.081 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-07 11:04:18.082 +05:30 [DBG] moviename: Valimai
+2023-08-07 11:04:18.083 +05:30 [DBG] moviename: Valimai
+2023-08-07 11:04:18.083 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-07 11:04:18.084 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-07 11:04:18.086 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-07 11:04:18.087 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-07 11:04:18.126 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-07 11:04:18.126 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-07 11:04:18.128 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 47.0128ms
+2023-08-07 11:04:18.129 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 50.2726ms
+2023-08-07 11:04:18.131 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-07 11:04:18.132 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-07 11:04:18.133 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Valimai - - - 200 - application/json;+charset=utf-8 66.4016ms
+2023-08-07 11:04:18.135 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Valimai - - - 200 - application/json;+charset=utf-8 66.3985ms

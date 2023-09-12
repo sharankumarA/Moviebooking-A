@@ -1,0 +1,141 @@
+2023-08-21 15:06:58.207 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-21 15:06:58.743 +05:30 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.AspNetCore.Authentication.AuthenticationBuilder.<>c__DisplayClass4_0`2.<AddSchemeHelper>b__0(AuthenticationOptions o)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__27_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-08-21 15:13:45.238 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-21 15:13:46.139 +05:30 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.AspNetCore.Authentication.AuthenticationBuilder.<>c__DisplayClass4_0`2.<AddSchemeHelper>b__0(AuthenticationOptions o)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__27_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-08-21 15:15:30.161 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-21 15:15:31.226 +05:30 [INF] Now listening on: https://localhost:7167
+2023-08-21 15:15:31.232 +05:30 [INF] Now listening on: http://localhost:5167
+2023-08-21 15:15:31.247 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 15:15:31.251 +05:30 [INF] Hosting environment: Development
+2023-08-21 15:15:31.254 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\
+2023-08-21 15:16:05.315 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger - -
+2023-08-21 15:16:07.098 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - -
+2023-08-21 15:16:08.279 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger - - - 0 - - 3000.0951ms
+2023-08-21 15:16:10.121 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - - - 200 - text/html;charset=utf-8 3022.1121ms
+2023-08-21 15:16:10.300 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - -
+2023-08-21 15:16:10.561 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 260.1358ms
+2023-08-21 15:16:12.337 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - -
+2023-08-21 15:16:13.295 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 957.7442ms
+2023-08-21 15:16:23.972 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - -
+2023-08-21 15:16:26.604 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-21 15:16:26.753 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-21 15:16:28.568 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-21 15:16:28.571 +05:30 [DBG] LoginId : sharan, Password: kumar
+2023-08-21 15:16:28.577 +05:30 [INF] Get user token : User Business
+2023-08-21 15:16:28.585 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-21 15:16:32.481 +05:30 [INF] Authorizing user : Identity Business
+2023-08-21 15:16:32.488 +05:30 [INF] creating user token : Identity Business
+2023-08-21 15:16:33.053 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-21 15:16:33.080 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 6303.418ms
+2023-08-21 15:16:33.100 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-21 15:16:33.109 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - - - 200 - text/plain;+charset=utf-8 9136.9358ms
+2023-08-21 15:19:16.866 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-21 15:19:17.771 +05:30 [INF] Now listening on: https://localhost:7167
+2023-08-21 15:19:17.775 +05:30 [INF] Now listening on: http://localhost:5167
+2023-08-21 15:19:17.788 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 15:19:17.793 +05:30 [INF] Hosting environment: Development
+2023-08-21 15:19:17.795 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\
+2023-08-21 15:19:23.605 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - -
+2023-08-21 15:19:23.605 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger - -
+2023-08-21 15:19:29.946 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger - - - 0 - - 6351.7273ms
+2023-08-21 15:19:30.849 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - - - 200 - text/html;charset=utf-8 7251.8346ms
+2023-08-21 15:19:31.579 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - -
+2023-08-21 15:19:31.622 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 43.2681ms
+2023-08-21 15:19:31.870 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - -
+2023-08-21 15:19:32.263 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 392.7319ms
+2023-08-21 15:19:42.266 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/sharan/kumar - -
+2023-08-21 15:19:42.529 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - -
+2023-08-21 15:19:42.721 +05:30 [INF] CORS policy execution successful.
+2023-08-21 15:19:42.732 +05:30 [INF] CORS policy execution successful.
+2023-08-21 15:19:42.749 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/sharan/kumar - - - 0 - - 482.7416ms
+2023-08-21 15:19:46.016 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-21 15:19:46.244 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-21 15:19:55.779 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-21 15:19:55.826 +05:30 [DBG] LoginId : sharan, Password: kumar
+2023-08-21 15:19:55.928 +05:30 [INF] Get user token : User Business
+2023-08-21 15:19:55.952 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-21 15:19:58.191 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/sharan/kumar - -
+2023-08-21 15:19:58.211 +05:30 [INF] CORS policy execution successful.
+2023-08-21 15:19:58.217 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7167/api/MovieBooking/sharan/kumar - - - 0 - - 26.6396ms
+2023-08-21 15:20:01.427 +05:30 [INF] Authorizing user : Identity Business
+2023-08-21 15:20:01.440 +05:30 [INF] creating user token : Identity Business
+2023-08-21 15:20:05.401 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-21 15:20:05.424 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 19123.2394ms
+2023-08-21 15:20:05.458 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-21 15:20:05.472 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - - - 200 - text/plain;+charset=utf-8 22947.5419ms
+2023-08-21 15:25:27.817 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-21 15:25:29.257 +05:30 [INF] Now listening on: https://localhost:7167
+2023-08-21 15:25:29.378 +05:30 [INF] Now listening on: http://localhost:5167
+2023-08-21 15:25:29.543 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 15:25:31.140 +05:30 [INF] Hosting environment: Development
+2023-08-21 15:25:31.161 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\
+2023-08-21 15:25:34.784 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger - -
+2023-08-21 15:25:35.223 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger - - - 0 - - 449.4822ms
+2023-08-21 15:25:35.353 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - -
+2023-08-21 15:25:36.616 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - - - 200 - text/html;charset=utf-8 1262.5157ms
+2023-08-21 15:25:36.795 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - -
+2023-08-21 15:25:37.209 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 413.5185ms
+2023-08-21 15:25:37.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/favicon-32x32.png - -
+2023-08-21 15:25:37.920 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-21 15:25:37.925 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/favicon-32x32.png - - - 0 628 image/png 51.4609ms
+2023-08-21 15:25:37.960 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - -
+2023-08-21 15:25:38.355 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 394.3818ms
+2023-08-21 15:26:04.147 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - -
+2023-08-21 15:26:04.474 +05:30 [INF] Executing endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-21 15:26:04.585 +05:30 [INF] Route matched with {action = "Login", controller = "MovieBooking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller MovieBooking.API.Controllers.MovieBookingController (MovieBooking.API).
+2023-08-21 15:26:09.612 +05:30 [INF] Login user : MovieBooking Controller
+2023-08-21 15:26:09.616 +05:30 [DBG] LoginId : sharan, Password: kumar
+2023-08-21 15:26:09.622 +05:30 [INF] Get user token : User Business
+2023-08-21 15:26:09.651 +05:30 [INF] GetUserByLoginIdPassword: user repository
+2023-08-21 15:26:14.527 +05:30 [INF] Authorizing user : Identity Business
+2023-08-21 15:26:14.533 +05:30 [INF] creating user token : Identity Business
+2023-08-21 15:26:15.004 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-21 15:26:15.026 +05:30 [INF] Executed action MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API) in 10418.2961ms
+2023-08-21 15:26:15.043 +05:30 [INF] Executed endpoint 'MovieBooking.API.Controllers.MovieBookingController.Login (MovieBooking.API)'
+2023-08-21 15:26:15.050 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/api/MovieBooking/sharan/kumar - - - 200 - text/plain;+charset=utf-8 10903.6628ms

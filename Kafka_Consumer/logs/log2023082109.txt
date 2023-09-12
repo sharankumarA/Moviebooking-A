@@ -1,0 +1,61 @@
+2023-08-21 09:39:37.599 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-08-21 09:39:37.956 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-21 09:39:42.051 +00:00 [INF] Creating key {9c752a2f-595c-4978-8958-28273487c6fb} with creation date 2023-08-21 09:39:42Z, activation date 2023-08-21 09:39:42Z, and expiration date 2023-11-19 09:39:42Z.
+2023-08-21 09:39:42.433 +00:00 [WRN] No XML encryptor configured. Key {9c752a2f-595c-4978-8958-28273487c6fb} may be persisted to storage in unencrypted form.
+2023-08-21 09:39:42.451 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-9c752a2f-595c-4978-8958-28273487c6fb.xml'.
+2023-08-21 09:39:42.783 +00:00 [INF] Now listening on: http://[::]:80
+2023-08-21 09:39:42.793 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 09:39:42.796 +00:00 [INF] Hosting environment: Development
+2023-08-21 09:39:42.797 +00:00 [INF] Content root path: /app/
+2023-08-21 09:39:44.325 +00:00 [INF] Kafka consumer initiated
+2023-08-21 09:39:56.642 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:18006/swagger/index.html - -
+2023-08-21 09:39:56.645 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:18006/swagger - -
+2023-08-21 09:39:57.400 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:18006/swagger - - - 0 - - 787.1761ms
+2023-08-21 09:39:58.627 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:18006/swagger/index.html - - - 200 - text/html;charset=utf-8 2020.2517ms
+2023-08-21 09:39:58.846 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:18006/swagger/swagger-ui.css - -
+2023-08-21 09:39:59.132 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-21 09:39:59.178 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:18006/swagger/swagger-ui.css - - - 0 144929 text/css 331.6544ms
+2023-08-21 09:40:00.557 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:18006/swagger/v1/swagger.json - -
+2023-08-21 09:40:01.050 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:18006/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 492.8842ms
+2023-08-21 09:45:55.580 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-08-21 09:45:55.800 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-21 09:45:57.866 +00:00 [INF] Creating key {fb025501-0aa6-4b63-ae65-f0d6ef71ed68} with creation date 2023-08-21 09:45:57Z, activation date 2023-08-21 09:45:57Z, and expiration date 2023-11-19 09:45:57Z.
+2023-08-21 09:45:58.081 +00:00 [WRN] No XML encryptor configured. Key {fb025501-0aa6-4b63-ae65-f0d6ef71ed68} may be persisted to storage in unencrypted form.
+2023-08-21 09:45:58.108 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-fb025501-0aa6-4b63-ae65-f0d6ef71ed68.xml'.
+2023-08-21 09:45:59.249 +00:00 [INF] Now listening on: http://[::]:80
+2023-08-21 09:45:59.260 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 09:45:59.261 +00:00 [INF] Hosting environment: Development
+2023-08-21 09:45:59.264 +00:00 [INF] Content root path: /app/
+2023-08-21 09:46:00.806 +00:00 [INF] Kafka consumer initiated
+2023-08-21 09:46:08.580 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger - -
+2023-08-21 09:46:09.254 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger - - - 301 0 - 695.8700ms
+2023-08-21 09:46:09.451 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/index.html - -
+2023-08-21 09:46:10.553 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/index.html - - - 200 - text/html;charset=utf-8 1101.1517ms
+2023-08-21 09:46:10.752 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/swagger-ui.css - -
+2023-08-21 09:46:10.835 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/swagger-ui-bundle.js - -
+2023-08-21 09:46:10.883 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/swagger-ui-standalone-preset.js - -
+2023-08-21 09:46:12.315 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-21 09:46:12.338 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/swagger-ui.css - - - 200 144929 text/css 1586.4943ms
+2023-08-21 09:46:13.038 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-21 09:46:13.046 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 2163.4562ms
+2023-08-21 09:46:13.390 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-21 09:46:13.396 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 2561.1688ms
+2023-08-21 09:46:14.045 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/favicon-32x32.png - -
+2023-08-21 09:46:14.050 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-21 09:46:14.053 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/favicon-32x32.png - - - 200 628 image/png 7.7534ms
+2023-08-21 09:46:14.191 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/v1/swagger.json - -
+2023-08-21 09:46:14.515 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 323.7142ms
+2023-08-21 09:49:46.767 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-08-21 09:49:47.451 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-21 09:49:57.640 +00:00 [INF] Now listening on: http://[::]:80
+2023-08-21 09:49:57.672 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 09:49:57.682 +00:00 [INF] Hosting environment: Development
+2023-08-21 09:49:57.690 +00:00 [INF] Content root path: /app/
+2023-08-21 09:49:58.699 +00:00 [INF] Kafka consumer initiated
+2023-08-21 09:50:03.233 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/index.html - -
+2023-08-21 09:50:05.303 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/index.html - - - 200 - text/html;charset=utf-8 2102.5322ms
+2023-08-21 09:50:05.955 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/favicon-32x32.png - -
+2023-08-21 09:50:06.039 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/v1/swagger.json - -
+2023-08-21 09:50:06.096 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-21 09:50:06.113 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/favicon-32x32.png - - - 0 628 image/png 156.7397ms
+2023-08-21 09:50:06.524 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 484.6719ms

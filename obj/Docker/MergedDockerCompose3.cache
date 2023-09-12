@@ -1,0 +1,25 @@
+services:
+  kafka_consumer:
+    build:
+      context: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API
+      dockerfile: Kafka_Consumer/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: kafkaconsumer
+    ports:
+    - target: 80
+  moviebooking.api:
+    build:
+      context: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API
+      dockerfile: MovieBooking.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: moviebookingapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\lenov\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\lenov\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

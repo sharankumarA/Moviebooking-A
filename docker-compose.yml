@@ -1,0 +1,26 @@
+version: '3.4'
+
+networks:
+  backend:
+
+services:
+  kafka_consumer:
+    image: moviebookingapp.azurecr.io/kafkaconsumer:latest
+    build:
+      context: .
+      dockerfile: Kafka_Consumer/Dockerfile
+    ports:
+    - 18006:80
+    networks:
+    - backend
+
+  moviebooking.api:
+    image:  moviebookingapp.azurecr.io/moviebookingapi:latest
+    build:
+      context: .
+      dockerfile: MovieBooking.API/Dockerfile
+    ports:
+    - 18007:80
+    networks:
+    - backend 
+

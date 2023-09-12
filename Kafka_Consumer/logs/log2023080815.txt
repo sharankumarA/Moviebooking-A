@@ -1,0 +1,799 @@
+2023-08-08 15:01:11.570 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-08 15:01:13.228 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-08 15:01:13.253 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 15:01:13.257 +05:30 [INF] Hosting environment: Development
+2023-08-08 15:01:13.260 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-08 15:01:13.415 +05:30 [INF] Kafka consumer initiated
+2023-08-08 15:01:16.815 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-08 15:01:16.815 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-08 15:01:17.362 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 563.2955ms
+2023-08-08 15:01:19.506 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 2708.8755ms
+2023-08-08 15:01:19.552 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 15:01:19.567 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 14.8104ms
+2023-08-08 15:01:20.320 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-08 15:01:20.621 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 300.9907ms
+2023-08-08 15:08:59.292 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/2018 - -
+2023-08-08 15:08:59.293 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/2018 - -
+2023-08-08 15:08:59.396 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-08 15:08:59.414 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:08:59.414 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:08:59.421 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/2018 - - - 204 - - 129.9505ms
+2023-08-08 15:08:59.421 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/2018 - - - 204 - - 130.0722ms
+2023-08-08 15:08:59.436 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/2018 - -
+2023-08-08 15:08:59.440 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/2018 - -
+2023-08-08 15:08:59.446 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:08:59.446 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:00.248 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:09:00.248 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:09:00.334 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:09:00.334 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:09:00.382 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:09:00.382 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:09:00.385 +05:30 [DBG] moviename: 2018
+2023-08-08 15:09:00.389 +05:30 [DBG] moviename: 2018
+2023-08-08 15:09:00.396 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:09:00.400 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:09:00.404 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:09:00.406 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:09:01.652 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 1296.8643ms
+2023-08-08 15:09:01.656 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:09:01.672 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:09:01.688 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Element 'ImageURL' does not match any field or property of class Kafka_Consumer.Model.MovieStatus.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Kafka_Consumer.Repository.AdminRepository.BookingAvailableRepoAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Repository\AdminRepository.cs:line 27
+   at Kafka_Consumer.Service.AdminService.BookingAvailableAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Service\AdminService.cs:line 22
+   at Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Controllers\AdminController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-08 15:09:01.698 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 1348.7575ms
+2023-08-08 15:09:01.978 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:09:01.982 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/2018 - - - 200 - application/json;+charset=utf-8 2545.6079ms
+2023-08-08 15:09:01.987 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/2018 - - - 500 - text/plain;+charset=utf-8 2546.4218ms
+2023-08-08 15:09:11.221 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/DD Returns - -
+2023-08-08 15:09:11.221 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/DD Returns - -
+2023-08-08 15:09:11.225 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:11.228 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:11.231 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/DD Returns - - - 204 - - 9.4003ms
+2023-08-08 15:09:11.234 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/DD Returns - - - 204 - - 12.2511ms
+2023-08-08 15:09:11.237 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/DD Returns - -
+2023-08-08 15:09:11.243 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:11.252 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:09:11.257 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:09:11.264 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:09:11.266 +05:30 [DBG] moviename: DD Returns
+2023-08-08 15:09:11.270 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:09:11.273 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:09:11.277 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/DD Returns - -
+2023-08-08 15:09:11.281 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:11.286 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:09:11.290 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:09:11.299 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:09:11.303 +05:30 [DBG] moviename: DD Returns
+2023-08-08 15:09:11.306 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:09:11.311 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:09:11.334 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-08 15:09:11.416 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 117.39ms
+2023-08-08 15:09:11.488 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:09:11.567 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/DD Returns - - - 400 - text/plain;+charset=utf-8 290.2899ms
+2023-08-08 15:09:11.569 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 305.3915ms
+2023-08-08 15:09:11.577 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:09:11.582 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Element 'ImageURL' does not match any field or property of class Kafka_Consumer.Model.MovieStatus.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Kafka_Consumer.Repository.AdminRepository.BookingAvailableRepoAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Repository\AdminRepository.cs:line 27
+   at Kafka_Consumer.Service.AdminService.BookingAvailableAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Service\AdminService.cs:line 22
+   at Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Controllers\AdminController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-08 15:09:11.632 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/DD Returns - - - 500 - text/plain;+charset=utf-8 395.7291ms
+2023-08-08 15:09:14.813 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Jailer - -
+2023-08-08 15:09:14.819 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Jailer - -
+2023-08-08 15:09:14.823 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:14.830 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:14.833 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Jailer - - - 204 - - 19.9744ms
+2023-08-08 15:09:14.835 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Jailer - - - 204 - - 16.6497ms
+2023-08-08 15:09:14.839 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Jailer - -
+2023-08-08 15:09:14.843 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Jailer - -
+2023-08-08 15:09:14.846 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:14.849 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:14.851 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:09:14.854 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:09:14.858 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:09:14.863 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:09:14.870 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:09:14.877 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:09:14.879 +05:30 [DBG] moviename: Jailer
+2023-08-08 15:09:14.881 +05:30 [DBG] moviename: Jailer
+2023-08-08 15:09:14.885 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:09:14.887 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:09:14.890 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:09:14.893 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:09:14.910 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:09:14.945 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 75.4203ms
+2023-08-08 15:09:15.054 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:09:15.134 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 257.3301ms
+2023-08-08 15:09:15.134 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Jailer - - - 200 - application/json;+charset=utf-8 294.5844ms
+2023-08-08 15:09:15.142 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:09:15.161 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Element 'ImageURL' does not match any field or property of class Kafka_Consumer.Model.MovieStatus.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Kafka_Consumer.Repository.AdminRepository.BookingAvailableRepoAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Repository\AdminRepository.cs:line 27
+   at Kafka_Consumer.Service.AdminService.BookingAvailableAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Service\AdminService.cs:line 22
+   at Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Controllers\AdminController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-08 15:09:15.234 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Jailer - - - 500 - text/plain;+charset=utf-8 390.8250ms
+2023-08-08 15:09:23.665 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Good night - -
+2023-08-08 15:09:23.665 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Good night - -
+2023-08-08 15:09:23.667 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:23.670 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:23.673 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Good night - - - 204 - - 8.3499ms
+2023-08-08 15:09:23.678 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Good night - - - 204 - - 13.5347ms
+2023-08-08 15:09:23.703 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Good night - -
+2023-08-08 15:09:23.711 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Good night - -
+2023-08-08 15:09:23.711 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:23.714 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:23.717 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:09:23.719 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:09:23.722 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:09:23.727 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:09:23.735 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:09:23.744 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:09:23.746 +05:30 [DBG] moviename: Good night
+2023-08-08 15:09:23.749 +05:30 [DBG] moviename: Good night
+2023-08-08 15:09:23.751 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:09:23.754 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:09:23.757 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:09:23.760 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:09:24.008 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:09:24.120 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 376.189ms
+2023-08-08 15:09:24.120 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 385.031ms
+2023-08-08 15:09:24.126 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:09:24.135 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:09:24.138 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Good night - - - 200 - application/json;+charset=utf-8 426.4769ms
+2023-08-08 15:09:24.148 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Element 'ImageURL' does not match any field or property of class Kafka_Consumer.Model.MovieStatus.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Kafka_Consumer.Repository.AdminRepository.BookingAvailableRepoAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Repository\AdminRepository.cs:line 27
+   at Kafka_Consumer.Service.AdminService.BookingAvailableAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Service\AdminService.cs:line 22
+   at Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Controllers\AdminController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-08 15:09:24.211 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Good night - - - 500 - text/plain;+charset=utf-8 507.8399ms
+2023-08-08 15:09:59.301 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/LGM - -
+2023-08-08 15:09:59.307 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/LGM - -
+2023-08-08 15:09:59.319 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:59.327 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:59.331 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/LGM - - - 204 - - 29.5079ms
+2023-08-08 15:09:59.340 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/LGM - - - 204 - - 33.0531ms
+2023-08-08 15:09:59.350 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/LGM - -
+2023-08-08 15:09:59.357 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/LGM - -
+2023-08-08 15:09:59.362 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:59.365 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:09:59.369 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:09:59.372 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:09:59.376 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:09:59.379 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:09:59.387 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:09:59.395 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:09:59.398 +05:30 [DBG] moviename: LGM
+2023-08-08 15:09:59.401 +05:30 [DBG] moviename: LGM
+2023-08-08 15:09:59.403 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:09:59.405 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:09:59.408 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:09:59.411 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:09:59.445 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-08 15:09:59.490 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 95.3903ms
+2023-08-08 15:09:59.599 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:09:59.705 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/LGM - - - 400 - text/plain;+charset=utf-8 347.5366ms
+2023-08-08 15:09:59.780 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 392.6998ms
+2023-08-08 15:09:59.785 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:09:59.792 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Element 'ImageURL' does not match any field or property of class Kafka_Consumer.Model.MovieStatus.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Kafka_Consumer.Repository.AdminRepository.BookingAvailableRepoAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Repository\AdminRepository.cs:line 27
+   at Kafka_Consumer.Service.AdminService.BookingAvailableAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Service\AdminService.cs:line 22
+   at Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Controllers\AdminController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-08 15:09:59.846 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/LGM - - - 500 - text/plain;+charset=utf-8 495.4383ms
+2023-08-08 15:10:03.044 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Viduthalai - -
+2023-08-08 15:10:03.045 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Viduthalai - -
+2023-08-08 15:10:03.047 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:10:03.051 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:10:03.054 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Viduthalai - - - 204 - - 9.4931ms
+2023-08-08 15:10:03.056 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Viduthalai - - - 204 - - 11.0337ms
+2023-08-08 15:10:03.060 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Viduthalai - -
+2023-08-08 15:10:03.063 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Viduthalai - -
+2023-08-08 15:10:03.075 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:10:03.081 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:10:03.084 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:10:03.087 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:10:03.090 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:10:03.095 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:10:03.101 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:10:03.107 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:10:03.109 +05:30 [DBG] moviename: Viduthalai
+2023-08-08 15:10:03.112 +05:30 [DBG] moviename: Viduthalai
+2023-08-08 15:10:03.115 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:10:03.117 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:10:03.120 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:10:03.122 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:10:03.133 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-08 15:10:03.144 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 42.8185ms
+2023-08-08 15:10:03.179 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:10:03.221 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Viduthalai - - - 400 - text/plain;+charset=utf-8 160.0876ms
+2023-08-08 15:10:03.371 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 263.9799ms
+2023-08-08 15:10:03.374 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:10:03.380 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Element 'ImageURL' does not match any field or property of class Kafka_Consumer.Model.MovieStatus.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Kafka_Consumer.Repository.AdminRepository.BookingAvailableRepoAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Repository\AdminRepository.cs:line 27
+   at Kafka_Consumer.Service.AdminService.BookingAvailableAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Service\AdminService.cs:line 22
+   at Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Controllers\AdminController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-08 15:10:03.441 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Viduthalai - - - 500 - text/plain;+charset=utf-8 377.6500ms
+2023-08-08 15:10:06.151 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Jailer - -
+2023-08-08 15:10:06.154 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Jailer - -
+2023-08-08 15:10:06.154 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:10:06.166 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:10:06.169 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Jailer - - - 204 - - 17.8025ms
+2023-08-08 15:10:06.171 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Jailer - - - 204 - - 17.7174ms
+2023-08-08 15:10:06.177 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Jailer - -
+2023-08-08 15:10:06.180 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Jailer - -
+2023-08-08 15:10:06.183 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:10:06.185 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:10:06.188 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:10:06.191 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:10:06.194 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:10:06.204 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:10:06.198 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:10:06.207 +05:30 [DBG] moviename: Jailer
+2023-08-08 15:10:06.214 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:10:06.216 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:10:06.219 +05:30 [DBG] moviename: Jailer
+2023-08-08 15:10:06.223 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:10:06.227 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:10:06.237 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:10:06.239 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:10:06.253 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 48.9873ms
+2023-08-08 15:10:06.306 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:10:06.365 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Jailer - - - 200 - application/json;+charset=utf-8 188.4422ms
+2023-08-08 15:10:06.589 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 374.8084ms
+2023-08-08 15:10:06.596 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:10:06.602 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Element 'ImageURL' does not match any field or property of class Kafka_Consumer.Model.MovieStatus.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Kafka_Consumer.Repository.AdminRepository.BookingAvailableRepoAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Repository\AdminRepository.cs:line 27
+   at Kafka_Consumer.Service.AdminService.BookingAvailableAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Service\AdminService.cs:line 22
+   at Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Controllers\AdminController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-08 15:10:06.652 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Jailer - - - 500 - text/plain;+charset=utf-8 471.9946ms
+2023-08-08 15:12:07.990 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/jailer - -
+2023-08-08 15:12:07.994 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:12:08.000 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:12:08.007 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:12:08.012 +05:30 [DBG] moviename: jailer
+2023-08-08 15:12:08.015 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:12:08.019 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:12:08.363 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 355.8294ms
+2023-08-08 15:12:08.369 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:12:08.375 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Element 'ImageURL' does not match any field or property of class Kafka_Consumer.Model.MovieStatus.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Kafka_Consumer.Repository.AdminRepository.BookingAvailableRepoAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Repository\AdminRepository.cs:line 27
+   at Kafka_Consumer.Service.AdminService.BookingAvailableAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Service\AdminService.cs:line 22
+   at Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Controllers\AdminController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-08 15:12:08.444 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/jailer - - - 500 - text/plain;+charset=utf-8 453.7342ms
+2023-08-08 15:12:27.468 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/jailer - -
+2023-08-08 15:12:27.472 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:12:27.477 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:12:27.485 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:12:27.488 +05:30 [DBG] moviename: jailer
+2023-08-08 15:12:27.491 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:12:27.496 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:12:27.517 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:12:27.521 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 36.1365ms
+2023-08-08 15:12:27.528 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:12:27.532 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/jailer - - - 200 - application/json;+charset=utf-8 64.3773ms
+2023-08-08 15:17:41.075 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-08 15:17:42.621 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-08 15:17:42.777 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 15:17:42.790 +05:30 [INF] Hosting environment: Development
+2023-08-08 15:17:42.794 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-08 15:17:42.942 +05:30 [INF] Kafka consumer initiated
+2023-08-08 15:17:45.372 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-08 15:17:45.526 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-08 15:17:45.836 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 475.2562ms
+2023-08-08 15:17:46.911 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 1384.7695ms
+2023-08-08 15:17:46.990 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/swagger-ui.css - -
+2023-08-08 15:17:47.020 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 15:17:47.054 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 33.2540ms
+2023-08-08 15:17:47.064 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-08 15:17:47.070 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/swagger-ui.css - - - 0 144929 text/css 79.8419ms
+2023-08-08 15:17:48.941 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - -
+2023-08-08 15:17:48.948 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-08 15:17:48.969 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-08 15:17:48.974 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - - - 0 628 image/png 33.0504ms
+2023-08-08 15:17:49.206 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 257.9098ms
+2023-08-08 15:18:39.121 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/2018 - -
+2023-08-08 15:18:39.144 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-08 15:18:40.011 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:18:40.096 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:18:40.149 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:18:40.152 +05:30 [DBG] moviename: 2018
+2023-08-08 15:18:40.162 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:18:40.168 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:18:41.104 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:18:41.156 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 1039.1814ms
+2023-08-08 15:18:41.172 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:18:41.183 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/2018 - - - 200 - application/json;+charset=utf-8 2062.4086ms
+2023-08-08 15:18:50.192 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/2018 - -
+2023-08-08 15:18:50.204 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:18:50.248 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:18:50.257 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:18:50.259 +05:30 [DBG] moviename: 2018
+2023-08-08 15:18:50.264 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:18:50.269 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:18:50.682 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 427.4368ms
+2023-08-08 15:18:50.690 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:18:50.699 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Element 'ImageURL' does not match any field or property of class Kafka_Consumer.Model.MovieStatus.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Kafka_Consumer.Repository.AdminRepository.BookingAvailableRepoAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Repository\AdminRepository.cs:line 27
+   at Kafka_Consumer.Service.AdminService.BookingAvailableAsync(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Service\AdminService.cs:line 22
+   at Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable(String movieName) in C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\Controllers\AdminController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-08 15:18:50.966 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/2018 - - - 500 - text/plain;+charset=utf-8 773.8856ms
+2023-08-08 15:20:39.865 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-08 15:20:41.548 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-08 15:20:41.559 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 15:20:41.564 +05:30 [INF] Hosting environment: Development
+2023-08-08 15:20:41.568 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-08 15:20:41.656 +05:30 [INF] Kafka consumer initiated
+2023-08-08 15:20:43.810 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-08 15:20:43.901 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-08 15:20:44.245 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 449.6730ms
+2023-08-08 15:20:46.140 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 2239.1107ms
+2023-08-08 15:20:46.189 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 15:20:46.226 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 37.1179ms
+2023-08-08 15:20:46.599 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-08 15:20:46.953 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 354.3128ms
+2023-08-08 15:21:29.544 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/2018 - -
+2023-08-08 15:21:29.579 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-08 15:21:30.433 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:21:30.525 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:21:30.593 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:21:30.597 +05:30 [DBG] moviename: 2018
+2023-08-08 15:21:30.603 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:21:30.608 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:21:31.616 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:21:31.677 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 1123.8253ms
+2023-08-08 15:21:31.699 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:21:31.708 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/2018 - - - 200 - application/json;+charset=utf-8 2164.6246ms
+2023-08-08 15:21:55.215 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/2018 - -
+2023-08-08 15:21:55.215 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/2018 - -
+2023-08-08 15:21:55.224 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:55.228 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:55.238 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/2018 - - - 204 - - 22.9732ms
+2023-08-08 15:21:55.238 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/2018 - - - 204 - - 22.8902ms
+2023-08-08 15:21:55.249 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/2018 - -
+2023-08-08 15:21:55.259 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/2018 - -
+2023-08-08 15:21:55.265 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:55.268 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:55.272 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:21:55.277 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:21:55.291 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:21:55.292 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:21:55.299 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:21:55.307 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:21:55.307 +05:30 [DBG] moviename: 2018
+2023-08-08 15:21:55.310 +05:30 [DBG] moviename: 2018
+2023-08-08 15:21:55.314 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:21:55.319 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:21:55.320 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:21:55.324 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:21:55.403 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:21:55.409 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 110.4246ms
+2023-08-08 15:21:55.415 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:21:55.418 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:21:55.421 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/2018 - - - 200 - application/json;+charset=utf-8 161.3410ms
+2023-08-08 15:21:55.425 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 121.0891ms
+2023-08-08 15:21:55.434 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:21:55.439 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/2018 - - - 200 - application/json;+charset=utf-8 189.6700ms
+2023-08-08 15:21:57.373 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/LGM - -
+2023-08-08 15:21:57.376 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/LGM - -
+2023-08-08 15:21:57.377 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:57.387 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:57.390 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/LGM - - - 204 - - 17.0463ms
+2023-08-08 15:21:57.394 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/LGM - - - 204 - - 17.5729ms
+2023-08-08 15:21:57.410 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/LGM - -
+2023-08-08 15:21:57.410 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/LGM - -
+2023-08-08 15:21:57.413 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:57.416 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:57.423 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:21:57.423 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:21:57.427 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:21:57.431 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:21:57.437 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:21:57.445 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:21:57.448 +05:30 [DBG] moviename: LGM
+2023-08-08 15:21:57.450 +05:30 [DBG] moviename: LGM
+2023-08-08 15:21:57.453 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:21:57.456 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:21:57.459 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:21:57.461 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:21:57.473 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:21:57.482 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-08 15:21:57.483 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 45.4114ms
+2023-08-08 15:21:57.487 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 42.8337ms
+2023-08-08 15:21:57.491 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:21:57.498 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:21:57.503 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/LGM - - - 200 - application/json;+charset=utf-8 92.9306ms
+2023-08-08 15:21:57.506 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/LGM - - - 400 - text/plain;+charset=utf-8 96.2122ms
+2023-08-08 15:21:59.702 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Viduthalai - -
+2023-08-08 15:21:59.703 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Viduthalai - -
+2023-08-08 15:21:59.706 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:59.709 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:59.718 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Viduthalai - - - 204 - - 15.0915ms
+2023-08-08 15:21:59.714 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Viduthalai - - - 204 - - 12.3767ms
+2023-08-08 15:21:59.723 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Viduthalai - -
+2023-08-08 15:21:59.727 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Viduthalai - -
+2023-08-08 15:21:59.730 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:59.732 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:21:59.735 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:21:59.737 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:21:59.740 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:21:59.745 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:21:59.753 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:21:59.759 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:21:59.762 +05:30 [DBG] moviename: Viduthalai
+2023-08-08 15:21:59.765 +05:30 [DBG] moviename: Viduthalai
+2023-08-08 15:21:59.767 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:21:59.770 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:21:59.772 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:21:59.776 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:21:59.787 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:21:59.797 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-08 15:21:59.799 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 46.5782ms
+2023-08-08 15:21:59.803 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 43.9547ms
+2023-08-08 15:21:59.808 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:21:59.812 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:21:59.818 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Viduthalai - - - 200 - application/json;+charset=utf-8 94.7341ms
+2023-08-08 15:21:59.822 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Viduthalai - - - 400 - text/plain;+charset=utf-8 95.2360ms
+2023-08-08 15:22:01.095 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Good night - -
+2023-08-08 15:22:01.095 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Good night - -
+2023-08-08 15:22:01.099 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:22:01.102 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:22:01.105 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Good night - - - 204 - - 10.0365ms
+2023-08-08 15:22:01.108 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Good night - - - 204 - - 13.5490ms
+2023-08-08 15:22:01.112 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Good night - -
+2023-08-08 15:22:01.117 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Good night - -
+2023-08-08 15:22:01.120 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:22:01.122 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:22:01.125 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:22:01.127 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:22:01.132 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:22:01.135 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:22:01.141 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:22:01.148 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:22:01.150 +05:30 [DBG] moviename: Good night
+2023-08-08 15:22:01.153 +05:30 [DBG] moviename: Good night
+2023-08-08 15:22:01.155 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:22:01.158 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:22:01.160 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:22:01.164 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:22:01.174 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:22:01.183 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:22:01.185 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 44.3915ms
+2023-08-08 15:22:01.190 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 42.0591ms
+2023-08-08 15:22:01.198 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:22:01.203 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:22:01.208 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Good night - - - 200 - application/json;+charset=utf-8 95.6743ms
+2023-08-08 15:22:01.215 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Good night - - - 200 - application/json;+charset=utf-8 97.6422ms
+2023-08-08 15:22:02.365 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Jailer - -
+2023-08-08 15:22:02.370 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:22:02.370 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Jailer - -
+2023-08-08 15:22:02.381 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Jailer - - - 204 - - 15.2459ms
+2023-08-08 15:22:02.386 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:22:02.388 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Jailer - -
+2023-08-08 15:22:02.391 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Jailer - - - 204 - - 21.2200ms
+2023-08-08 15:22:02.394 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:22:02.399 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Jailer - -
+2023-08-08 15:22:02.402 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:22:02.404 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:22:02.408 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:22:02.411 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:22:02.417 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:22:02.421 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:22:02.423 +05:30 [DBG] moviename: Jailer
+2023-08-08 15:22:02.431 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:22:02.433 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:22:02.436 +05:30 [DBG] moviename: Jailer
+2023-08-08 15:22:02.438 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:22:02.442 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:22:02.451 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:22:02.455 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:22:02.465 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:22:02.466 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 48.5953ms
+2023-08-08 15:22:02.470 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 39.4386ms
+2023-08-08 15:22:02.475 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:22:02.479 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:22:02.483 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Jailer - - - 200 - application/json;+charset=utf-8 94.6516ms
+2023-08-08 15:22:02.489 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Jailer - - - 200 - application/json;+charset=utf-8 89.4518ms
+2023-08-08 15:28:43.519 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-08 15:28:45.147 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-08 15:28:45.161 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 15:28:45.166 +05:30 [INF] Hosting environment: Development
+2023-08-08 15:28:45.169 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-08 15:28:45.331 +05:30 [INF] Kafka consumer initiated
+2023-08-08 15:28:48.188 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-08 15:28:48.303 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-08 15:28:48.944 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 692.9437ms
+2023-08-08 15:28:51.263 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 2959.6123ms
+2023-08-08 15:28:51.307 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 15:28:51.326 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 19.4215ms
+2023-08-08 15:28:51.720 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-08 15:28:52.011 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 290.4954ms
+2023-08-08 15:34:52.721 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Jailer - -
+2023-08-08 15:34:52.721 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Jailer - -
+2023-08-08 15:34:52.764 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-08 15:34:52.787 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:34:52.787 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:34:52.794 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-booked/Jailer - - - 204 - - 72.6863ms
+2023-08-08 15:34:52.794 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5264/api/Admin/ticket-available/Jailer - - - 204 - - 73.0422ms
+2023-08-08 15:34:52.806 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Jailer - -
+2023-08-08 15:34:52.810 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Jailer - -
+2023-08-08 15:34:52.816 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:34:52.816 +05:30 [INF] CORS policy execution successful.
+2023-08-08 15:34:53.653 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:34:53.653 +05:30 [INF] Executing endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:34:53.740 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsBooked", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsBooked(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:34:53.740 +05:30 [INF] Route matched with {action = "GetNumberOfTicketsAvailable", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNumberOfTicketsAvailable(System.String) on controller Kafka_Consumer.Controllers.AdminController (Kafka_Consumer).
+2023-08-08 15:34:53.791 +05:30 [INF] Get number of tickets available : admin kafka controller
+2023-08-08 15:34:53.791 +05:30 [INF] Get number of tickets booked : admin kafka controller
+2023-08-08 15:34:53.793 +05:30 [DBG] moviename: Jailer
+2023-08-08 15:34:53.797 +05:30 [DBG] moviename: Jailer
+2023-08-08 15:34:53.802 +05:30 [INF] Get list of movie available : admin kafka service
+2023-08-08 15:34:53.805 +05:30 [INF] Get list of tickets booked : admin kafka service
+2023-08-08 15:34:53.809 +05:30 [INF] Get list of movie available from movie collection: admin kafka repository
+2023-08-08 15:34:53.810 +05:30 [INF] Get list of tickets booked from ticket collection: admin kafka repository
+2023-08-08 15:34:54.716 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:34:54.716 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kafka_Consumer.Dto.TicketBookedCountResponse, Kafka_Consumer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-08 15:34:54.762 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer) in 992.4101ms
+2023-08-08 15:34:54.762 +05:30 [INF] Executed action Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer) in 1001.829ms
+2023-08-08 15:34:54.781 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsAvailable (Kafka_Consumer)'
+2023-08-08 15:34:54.781 +05:30 [INF] Executed endpoint 'Kafka_Consumer.Controllers.AdminController.GetNumberOfTicketsBooked (Kafka_Consumer)'
+2023-08-08 15:34:54.792 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-available/Jailer - - - 200 - application/json;+charset=utf-8 1981.1103ms
+2023-08-08 15:34:54.792 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/api/Admin/ticket-booked/Jailer - - - 200 - application/json;+charset=utf-8 1985.7506ms

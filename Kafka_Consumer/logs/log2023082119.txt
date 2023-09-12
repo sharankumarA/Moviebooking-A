@@ -1,0 +1,19 @@
+2023-08-21 19:03:13.067 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-08-21 19:03:13.197 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-21 19:03:18.573 +00:00 [INF] Now listening on: http://[::]:80
+2023-08-21 19:03:18.590 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 19:03:18.603 +00:00 [INF] Hosting environment: Development
+2023-08-21 19:03:18.606 +00:00 [INF] Content root path: /app/
+2023-08-21 19:03:24.165 +00:00 [INF] Kafka consumer initiated
+2023-08-21 19:03:24.919 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49157/swagger - -
+2023-08-21 19:03:24.919 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49157/swagger/index.html - -
+2023-08-21 19:03:25.048 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49157/swagger - - - 0 - - 131.8843ms
+2023-08-21 19:03:25.273 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49157/swagger/index.html - - - 200 - text/html;charset=utf-8 359.5527ms
+2023-08-21 19:03:25.303 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49157/swagger/swagger-ui.css - -
+2023-08-21 19:03:25.359 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-21 19:03:25.360 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49157/swagger/swagger-ui.css - - - 0 144929 text/css 57.5846ms
+2023-08-21 19:03:25.653 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49157/swagger/favicon-32x32.png - -
+2023-08-21 19:03:25.690 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-21 19:03:25.692 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49157/swagger/favicon-32x32.png - - - 0 628 image/png 39.5863ms
+2023-08-21 19:03:25.732 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49157/swagger/v1/swagger.json - -
+2023-08-21 19:03:26.001 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49157/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 268.1379ms

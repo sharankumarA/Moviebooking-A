@@ -1,0 +1,48 @@
+2023-08-11 10:32:48.491 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 10:32:55.823 +05:30 [INF] Kafka consumer initiated
+2023-08-11 10:32:55.831 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-11 10:32:55.860 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 10:32:55.863 +05:30 [INF] Hosting environment: Development
+2023-08-11 10:32:55.866 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-11 10:32:58.642 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-11 10:32:58.916 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-11 10:32:59.214 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 609.1883ms
+2023-08-11 10:33:01.082 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 2166.3983ms
+2023-08-11 10:33:01.219 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-11 10:33:01.289 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 69.9742ms
+2023-08-11 10:33:02.385 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-11 10:33:02.642 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 257.0227ms
+2023-08-11 10:50:52.988 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 10:50:54.751 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-11 10:50:54.795 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 10:50:54.801 +05:30 [INF] Hosting environment: Development
+2023-08-11 10:50:54.804 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-11 10:50:54.943 +05:30 [INF] Kafka consumer initiated
+2023-08-11 10:50:57.356 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-11 10:50:57.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-11 10:50:57.798 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 444.2690ms
+2023-08-11 10:51:00.677 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 3168.3022ms
+2023-08-11 10:51:00.817 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-11 10:51:00.866 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 49.2617ms
+2023-08-11 10:51:03.529 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-11 10:51:03.532 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - -
+2023-08-11 10:51:03.578 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 10:51:03.583 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - - - 0 628 image/png 50.9738ms
+2023-08-11 10:51:03.765 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 235.4976ms
+2023-08-11 10:54:07.620 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 10:54:08.961 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-11 10:54:08.984 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-11 10:54:08.989 +05:30 [INF] Hosting environment: Development
+2023-08-11 10:54:08.991 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\Kafka_Consumer\
+2023-08-11 10:54:09.190 +05:30 [INF] Kafka consumer initiated
+2023-08-11 10:54:11.757 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/index.html - -
+2023-08-11 10:54:11.739 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger - -
+2023-08-11 10:54:12.100 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger - - - 0 - - 394.9781ms
+2023-08-11 10:54:13.127 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/index.html - - - 200 - text/html;charset=utf-8 1369.8454ms
+2023-08-11 10:54:13.282 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - -
+2023-08-11 10:54:13.306 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 23.0965ms
+2023-08-11 10:54:13.393 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - -
+2023-08-11 10:54:13.466 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 10:54:13.470 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/favicon-32x32.png - - - 0 628 image/png 77.1701ms
+2023-08-11 10:54:13.579 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - -
+2023-08-11 10:54:13.873 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 294.1540ms

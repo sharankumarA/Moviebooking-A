@@ -1,0 +1,20 @@
+2023-08-10 21:58:48.482 +05:30 [INF] User profile is available. Using 'C:\Users\lenov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-10 21:58:50.449 +05:30 [INF] Now listening on: https://localhost:7167
+2023-08-10 21:58:50.564 +05:30 [INF] Now listening on: http://localhost:5167
+2023-08-10 21:58:50.597 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-10 21:58:50.632 +05:30 [INF] Hosting environment: Development
+2023-08-10 21:58:50.647 +05:30 [INF] Content root path: C:\Cognizant\MovieBooking\MovieBookingApp\MovieBooking.API\MovieBooking.API\
+2023-08-10 21:58:54.295 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger - -
+2023-08-10 21:58:54.507 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - -
+2023-08-10 21:58:55.330 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger - - - 0 - - 1057.6639ms
+2023-08-10 21:58:59.109 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - - - 200 - text/html;charset=utf-8 4602.3376ms
+2023-08-10 21:58:59.413 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/swagger-ui.css - -
+2023-08-10 21:58:59.439 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - -
+2023-08-10 21:58:59.508 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 69.4514ms
+2023-08-10 21:58:59.534 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-10 21:58:59.539 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/swagger-ui.css - - - 0 143632 text/css 125.9511ms
+2023-08-10 21:59:00.212 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/favicon-32x32.png - -
+2023-08-10 21:59:00.219 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-10 21:59:00.229 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/favicon-32x32.png - - - 0 628 image/png 16.3938ms
+2023-08-10 21:59:00.389 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - -
+2023-08-10 21:59:00.702 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 312.6531ms
